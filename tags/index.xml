@@ -5,6 +5,43 @@
     <link>http://moisoto.github.io/tags/</link>
     <description>Recent content in Tags on MoiSoto&#39;s Dev Corner</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://moisoto.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Mar 2021 10:52:29 -0400</lastBuildDate><atom:link href="http://moisoto.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gists</title>
+      <link>http://moisoto.github.io/tags/gists/</link>
+      <pubDate>Thu, 11 Mar 2021 10:52:29 -0400</pubDate>
+      
+      <guid>http://moisoto.github.io/tags/gists/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>http://moisoto.github.io/tags/github/</link>
+      <pubDate>Thu, 11 Mar 2021 10:52:29 -0400</pubDate>
+      
+      <guid>http://moisoto.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Notes</title>
+      <link>http://moisoto.github.io/tags/notes/</link>
+      <pubDate>Thu, 11 Mar 2021 10:52:29 -0400</pubDate>
+      
+      <guid>http://moisoto.github.io/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swift</title>
+      <link>http://moisoto.github.io/tags/swift/</link>
+      <pubDate>Thu, 11 Mar 2021 10:52:29 -0400</pubDate>
+      
+      <guid>http://moisoto.github.io/tags/swift/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
