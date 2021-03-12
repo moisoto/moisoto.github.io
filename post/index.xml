@@ -6,7 +6,20 @@
     <description>Recent content in Posts on MoiSoto&#39;s Dev Corner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Mar 2021 10:52:29 -0400</lastBuildDate><atom:link href="http://moisoto.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Mar 2021 22:23:18 -0400</lastBuildDate><atom:link href="http://moisoto.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This Hugo Website Is Public!</title>
+      <link>http://moisoto.github.io/post/this-hugo-website-is-public/</link>
+      <pubDate>Thu, 11 Mar 2021 22:23:18 -0400</pubDate>
+      
+      <guid>http://moisoto.github.io/post/this-hugo-website-is-public/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.github.io/images/GitHub-Mark-120px-plus.png#floatleft&#34; alt=&#34;GitHub-Octocat&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The Github repository used for to generate this website is public. And the README.md file contains lots of info on how it was created.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;please-check-it-out-at&#34;&gt;Please check it out at:&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/moisoto/github-page.dev&#34;&gt;https://github.com/moisoto/github-page.dev&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Swift Programming Notes</title>
       <link>http://moisoto.github.io/post/swift-programming-notes/</link>
