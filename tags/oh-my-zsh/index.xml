@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>oh-my-zsh on MoiSoto&#39;s Dev Corner</title>
+    <link>http://moisoto.github.io/tags/oh-my-zsh/</link>
+    <description>Recent content in oh-my-zsh on MoiSoto&#39;s Dev Corner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Mar 2021 11:01:40 -0400</lastBuildDate><atom:link href="http://moisoto.github.io/tags/oh-my-zsh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unleashing ZSH - Tips &amp; Bits</title>
+      <link>http://moisoto.github.io/post/unleashing-zsh-tips-and-bits/</link>
+      <pubDate>Wed, 17 Mar 2021 11:01:40 -0400</pubDate>
+      
+      <guid>http://moisoto.github.io/post/unleashing-zsh-tips-and-bits/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.github.io/images/ZSH.png#floatleft&#34; alt=&#34;ZSH-Terminal&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The adoption of Z-Shell (ZSH) as the default on macOS Catalina may seem a letdown for most bash supporters. But I digress, ZSH brings with it some nice features, and more importantly you can use Oh-My-Zsh which is a framework with plugins for a lot of languages, programs and platforms.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Keep reading to know more about ZSH and see some usefull links to get you started on this new shell features&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

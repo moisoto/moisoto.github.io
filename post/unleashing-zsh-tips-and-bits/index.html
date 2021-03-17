@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Hugo 0.81.0" />
+
+  <title>Unleashing ZSH - Tips &amp; Bits &middot; MoiSoto&#39;s Dev Corner</title>
+
+  <meta name="description" content="" />
+
+  
+
+<meta itemprop="name" content="Unleashing ZSH - Tips &amp; Bits">
+<meta itemprop="description" content="
+The adoption of Z-Shell (ZSH) as the default on macOS Catalina may seem a letdown for most bash supporters. But I digress, ZSH brings with it some nice features, and more importantly you can use Oh-My-Zsh which is a framework with plugins for a lot of languages, programs and platforms.
+
+Keep reading to know more about ZSH and see some usefull links to get you started on this new shell features&hellip;"><meta itemprop="datePublished" content="2021-03-17T11:01:40-04:00" />
+<meta itemprop="dateModified" content="2021-03-17T11:01:40-04:00" />
+<meta itemprop="wordCount" content="990">
+<meta itemprop="keywords" content="zsh,oh-my-zsh,powerlevel10k,terminal," />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Unleashing ZSH - Tips &amp; Bits"/>
+<meta name="twitter:description" content="
+The adoption of Z-Shell (ZSH) as the default on macOS Catalina may seem a letdown for most bash supporters. But I digress, ZSH brings with it some nice features, and more importantly you can use Oh-My-Zsh which is a framework with plugins for a lot of languages, programs and platforms.
+
+Keep reading to know more about ZSH and see some usefull links to get you started on this new shell features&hellip;"/>
+
+
+<meta property="og:title" content="Unleashing ZSH - Tips &amp; Bits" />
+<meta property="og:description" content="
+The adoption of Z-Shell (ZSH) as the default on macOS Catalina may seem a letdown for most bash supporters. But I digress, ZSH brings with it some nice features, and more importantly you can use Oh-My-Zsh which is a framework with plugins for a lot of languages, programs and platforms.
+
+Keep reading to know more about ZSH and see some usefull links to get you started on this new shell features&hellip;" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://moisoto.github.io/post/unleashing-zsh-tips-and-bits/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-03-17T11:01:40-04:00" />
+<meta property="article:modified_time" content="2021-03-17T11:01:40-04:00" />
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type":"Person",
+      "@id": "http://moisoto.github.io/#author",
+      "name": "Moises Soto",
+      "image": {
+        "@type":"ImageObject",
+        
+        "url": "http://moisoto.github.io/images/profilepic.jpg"
+        
+      },
+      "description": "Hosted by GitHub"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "http://moisoto.github.io/#website",
+      "url": "http://moisoto.github.io/",
+      "name": "MoiSoto's Dev Corner",
+      "description": "Hosted by GitHub",
+      "publisher": {
+        "@id": "http://moisoto.github.io/#author"
+      },
+      "inLanguage": "en-us"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "http://moisoto.github.io/post/unleashing-zsh-tips-and-bits/#webpage",
+      "url": "http://moisoto.github.io/post/unleashing-zsh-tips-and-bits/",
+      "name": "Unleashing ZSH - Tips \u0026 Bits",
+      "isPartOf": {
+        "@id": "http://moisoto.github.io/#website"
+      },
+      "about": {
+         "@id": "http://moisoto.github.io/#author"
+      },
+      "datePublished": "2021-03-17T11:01:40-04:00",
+      "dateModified": "2021-03-17T11:01:40-04:00",
+      "description": "\u003cp\u003e\u003cimg src=\"/images/ZSH.png#floatleft\" alt=\"ZSH-Terminal\"\u003e\u003c/p\u003e\n\u003cp\u003eThe adoption of Z-Shell (ZSH) as the default on macOS Catalina may seem a letdown for most bash supporters. But I digress, ZSH brings with it some nice features, and more importantly you can use Oh-My-Zsh which is a framework with plugins for a lot of languages, programs and platforms.\u003c/p\u003e\n\u003chr\u003e\n\u003cp\u003eKeep reading to know more about ZSH and see some usefull links to get you started on this new shell features\u0026hellip;\u003c/p\u003e",
+      "inLanguage": "en-us",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "http://moisoto.github.io/post/unleashing-zsh-tips-and-bits/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "isPartOf": {
+        "@id": "http://moisoto.github.io/post/unleashing-zsh-tips-and-bits/#webpage"
+      },
+      "mainEntityOfPage": {
+        "@id": "http://moisoto.github.io/post/unleashing-zsh-tips-and-bits/#webpage"
+      },
+      "headline": "Unleashing ZSH - Tips \u0026 Bits",
+      "datePublished": "2021-03-17T11:01:40-04:00",
+      "dateModified": "2021-03-17T11:01:40-04:00",
+      "publisher": {
+        "@id": "http://moisoto.github.io/#author"
+      },
+      "keywords": [
+        "zsh",
+        "oh-my-zsh",
+        "powerlevel10k",
+        "terminal"
+      ],
+      "articleSection": [
+      ],
+      "inLanguage": "en-us",
+      "author": {
+        "@type": "Person",
+        "name":  null 
+      },
+      "potentialAction": [
+        {
+          "@type": "CommentAction",
+          "name": "Comment",
+          "target": [
+            "http://moisoto.github.io/post/unleashing-zsh-tips-and-bits/#comments"
+          ]
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/print.css"
+        media="print">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/poole.css">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/hyde.css">
+
+  
+
+
+  <link type="text/css" rel="stylesheet" href="/css/blog.css">
+
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+        crossorigin="anonymous" />
+
+  <link rel="apple-touch-icon-precomposed"
+        sizes="144x144"
+        href="/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  </head>
+<body>
+  <aside class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      
+        
+        <div class="author-image">
+          <a href="http://moisoto.github.io/">
+            <img src="/images/profilepic.jpg" class="img-circle img-headshot center" alt="Profile Picture">
+          </a>
+        </div>
+        
+      
+
+      <h1>MoiSoto&#39;s Dev Corner</h1>
+
+      
+      <p class="lead">Hosted by GitHub</p>
+      
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li>
+          <a href="http://moisoto.github.io/">Home</a>
+        </li>
+        <li>
+          <a href="/post/">Posts</a>
+        </li><li>
+          <a href="/about/">About</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="social-icons">
+      
+      <a href="https://github.com/moisoto" rel="me" title="GitHub" target="_blank">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+      
+      <a href="https://twitter.com/moisoto" rel="me" title="Twitter" target="_blank">
+        <i class="fab fa-twitter" aria-hidden="true"></i>
+      </a>
+      
+    </section>
+  </div>
+</aside>
+
+
+  <main class="content container">
+  <div class="post">
+  <h1 class="title">Unleashing ZSH - Tips &amp; Bits</h1>
+  
+
+  <div class="post-date">
+    <time datetime="2021-03-17T11:01:40-0400">Mar 17, 2021</time> <span class="readtime">&middot; 5 min read</span>
+  </div>
+
+  <div>
+  <p><img src="/images/ZSH.png#floatleft" alt="ZSH-Terminal"></p>
+<p>The adoption of Z-Shell (ZSH) as the default on macOS Catalina may seem a letdown for most bash supporters. But I digress, ZSH brings with it some nice features, and more importantly you can use Oh-My-Zsh which is a framework with plugins for a lot of languages, programs and platforms.</p>
+<hr>
+<p>Keep reading to know more about ZSH and see some usefull links to get you started on this new shell features&hellip;</p>
+<h1 id="introducing-z-shell">Introducing Z-SHell</h1>
+<p>Z-Shell is the program that runs when you start a terminal session on your Mac. It&rsquo;s called a command interpreter and let&rsquo;s you run programs from a terminal window.</p>
+<p>It can also be used to make scripts. If you are a bash user you probably know your way arround doing scripting. But maybe you are a not a poweruser and just want to get the best out of your terminal.</p>
+<p>Well, even if you are not an expert at shell programming, you can take advantage of ZSH powerful scripting capabilities by installing a framework called <a href="https://ohmyz.sh">Oh-My-Zsh</a>. This framework moto is actually <em><strong>&ldquo;Unleash Your terminal like never before&rdquo;</strong></em>. As you may suspect, Oh-My-Zsh will be the focus of this article.</p>
+<hr>
+<h2 id="installing-iterm-2">Installing iTerm 2</h2>
+<p>The first thing you want to do is <a href="https://iterm2.com/index.html">install iTerm2</a>. The best and more powerful free terminal replacement (IMHO). It&rsquo;s great for a lot of things, and Oh-My-Zsh looks great on it!</p>
+<p>Go to <a href="https://iterm2.com/index.html">iTerm2 home page</a> and click the download button for the latest stable version. You then just need to move it to your Applications Folder and launch from there. Also you may click on the icon and select <em><strong>Options -&gt; Keep in Dock</strong></em> to make the icon stay permanently on your dock.</p>
+<hr>
+<h2 id="making-zsh-your-default-shell">Making ZSH your default shell</h2>
+<p>If you are on macOS Catalina, your default shell is most likely zsh but to make sure, run the following commands:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Check your default shell:</span>
+echo $SHELL
+
+<span style="color:#75715e"># Check your current shell:</span>
+ps -o comm<span style="color:#f92672">=</span> $$
+</code></pre></div><br />
+
+<p>If the $SHELL variable shows a different shell, run the following command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Copy and paste this</span>
+chsh -s /bin/zsh
+</code></pre></div><br />
+
+<p>After this, close and reopen your terminal program, then run <strong><code>ps -o comm= $$</code></strong> to make sure your terminal is using ZSH as your shell. If the output is not <strong><code>-zsh</code></strong>, then you probably have overrided your shell on your terminal program preferences and need to specify /bin/zsh as your shell in your app preferences.</p>
+<hr>
+<h2 id="installing-oh-my-zsh">Installing Oh-My-Zsh</h2>
+<p>At the time of this writing, installing ohmyzsh on macOS is as simple as running this command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sh -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</code></pre></div><p>In case the repository or install instructions change in the future, you can go to <a href="https://ohmyz.sh/#install">Oh-My-Zsh home</a> page and check current install instructions.</p>
+<p><strong>Note:</strong> Read the output of the installation. If you see warning like file permissions not set properly (usually the /usr/local/share/zsh folder) the correct permission for zsh folders is 755 (run the command <code>chmod 755 &lt;foldername&gt;</code> in the corresponding reported folders).</p>
+<p>Now exit your terminal session and start a new one to make sure all Oh-My-Zsh environment variables are set properly.</p>
+<hr>
+<h2 id="setting-up-your-oh-my-zsh-theme">Setting up your Oh-My-Zsh Theme</h2>
+<p>Now that you have Oh-My-Zsh installed, the next step is to customize it to your liking. The theme I use and recommend is called <a href="https://github.com/romkatv/powerlevel10k">Powerlevel10k</a>. It can be installed with or without Oh-My-Zsh. We will of course use the Oh-My-Zsh install method.</p>
+<h4 id="installing-powerlevel10k">Installing Powerlevel10k</h4>
+<p>Since we are using Oh-My-Zsh, we just need to use the following command to install Powerlevel10K:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git clone --depth<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span> <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>https://github.com/romkatv/powerlevel10k.git <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span><span style="color:#e6db74">${</span>ZSH_CUSTOM<span style="color:#66d9ef">:-</span>$HOME/.oh-my-zsh/custom<span style="color:#e6db74">}</span>/themes/powerlevel10k
+</code></pre></div><p>After running this command you&rsquo;ll have the Powerlevel10k theme downloaded into your custom themes folder. Now all you need to do is edit your <em><code>~/.zshrc</code></em> file and specify your theme. You&rsquo;ll need to change the value of <em>ZSH_THEME</em> variable, which normally is set to <em>robbyrussell</em> theme. Comment the default value and add Powerlevel10k like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#ZSH_THEME=&#34;robbyrussell&#34;</span>
+ZSH_THEME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;powerlevel10k/powerlevel10k&#34;</span>
+</code></pre></div><p>Save your <em><code>~/.zshrc</code></em> file, exit your current session and open a new terminal window. Powerlevel10k configuration utility will be run automatically, you will be asked a few questions about how you want Powerlevel10k to be configured. These are my recommended settings but feel free to experiment (you can re-confifure your setup by executing the command <code>p10k configure</code> later on):</p>
+<ul>
+<li><strong>Prompt Style:</strong> Rainbow</li>
+<li><strong>Show Current Time?:</strong> No</li>
+<li><strong>Prompt Separator:</strong> Angled</li>
+<li><strong>Prompt Head:</strong> Sharp</li>
+<li><strong>Prompt Tails:</strong> Slanted</li>
+<li><strong>Prompt Height:</strong> Two Lines</li>
+<li><strong>Prompt Connection:</strong> Disconnected</li>
+<li><strong>Prompt Frame:</strong> No Frame</li>
+<li><strong>Prompt Spacing:</strong> Sparse</li>
+<li><strong>Icons:</strong> Many Icons</li>
+<li><strong>Prompt Flow:</strong> Fluent</li>
+</ul>
+<hr>
+<h2 id="where-to-go-from-here">Where to Go From Here?</h2>
+<p>After all the previous steps are completed you will be able to take advantage of a host of features and <a href="https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins">built-in plugins</a>. Let&rsquo;s see a few of my favorites:</p>
+<h4 id="dircyclehttpsgithubcomohmyzshohmyzshblobmasterpluginsdircycle"><a href="https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/dircycle">Dircycle</a></h4>
+<p>With <a href="https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/dircycle/README.md">dircycle</a> you will be able to cycle between your directory folders history. Here is a short overview of how it works:</p>
+<ul>
+<li><strong>List Directory Stack:</strong> Type <code>dirs -v</code> command.</li>
+<li><strong>Back on Directory Stack:</strong> Ctrl+Shift + LeftArrow</li>
+<li><strong>Forward on Directory Stack:</strong> Ctrl+Shift + LeftArrow</li>
+</ul>
+<br />
+
+<h4 id="warp-directoryhttpsgithubcomohmyzshohmyzshtreemasterpluginswd"><a href="https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/wd">Warp Directory</a></h4>
+<p>Warp directory lets you move to your most commonly used folders using warp points that you define using commands or modifying a configuration file directly:
+<br />
+</p>
+<ul>
+<li>
+<p><strong>Adding a Warp Point:</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ cd ~/go/src/golang.org/x/tools/playground
+$ wd add goplay
+ * Warp point added
+$ cd ~/go/src/github.com/google/uuid
+$ wd add uuid
+ * Warp point added
+</code></pre></div></li>
+</ul>
+<br />
+
+<ul>
+<li>
+<p><strong>Moving to a Warp Point:</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ wd goplay
+$ pwd
+/Users/macuser/go/src/golang.org/x/tools/playground
+$ wd uuid
+$ pwd
+/Users/macuser/go/src/github.com/google/uuid
+</code></pre></div></li>
+</ul>
+<br />
+
+<ul>
+<li>
+<p><strong>List your current Warp Points:</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ wd list
+ * All warp points:
+goplay  -&gt;  ~/go/src/golang.org/x/tools/playground
+  uuis  -&gt;  ~/go/src/github.com/google/uuid
+</code></pre></div></li>
+</ul>
+<br />
+
+<ul>
+<li>
+<p><strong>Add Warp Point manually to config:</strong> Modify directly the file <em>~/.warprc</em> which would now contain the warp points as follow:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">goplay:~/go/src/golang.org/x/tools/playground
+uuid:~/go/src/github.com/google/uuid
+</code></pre></div></li>
+</ul>
+<br />
+
+<h4 id="other-plugins-you-may-likehttpsgithubcomohmyzshohmyzshtreemasterplugins"><a href="https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins">Other plugins you may like</a></h4>
+<ul>
+<li><strong><a href="https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/git/README.md">git</a>:</strong> Adds some aliases for git command.</li>
+<li><strong><a href="https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/golang/README.md">golang</a>:</strong> Adds some aliases for go command.</li>
+<li><strong><a href="https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/iterm2/README.md">iTerm2</a>:</strong> Adds <code>iterm2_profile</code> command (among others).</li>
+<li><strong><a href="https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/tmux/README.md">tmux</a>:</strong> Adds some aliases for tmux command.</li>
+</ul>
+<hr>
+<h3 id="how-to-add-these-plugins">How to add these plugins:</h3>
+<p>Adding plugins to Oh-My-Zsh is really easy, just edit the file ~/.zshrc and change the line that says <code>plugins=()</code>. To add the previously listed plugins it should read as follows:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">plugins<span style="color:#f92672">=(</span>dircycle wd git golang iterm2 tmux<span style="color:#f92672">)</span>
+</code></pre></div>
+  </div>
+
+  
+<div>
+  <ul class="tags">
+  <li>
+    <a href="http://moisoto.github.io/tags/zsh/" class="tag-link">zsh</a>
+  </li>
+  
+  <li>
+    <a href="http://moisoto.github.io/tags/oh-my-zsh/" class="tag-link">oh-my-zsh</a>
+  </li>
+  
+  <li>
+    <a href="http://moisoto.github.io/tags/powerlevel10k/" class="tag-link">powerlevel10k</a>
+  </li>
+  
+  <li>
+    <a href="http://moisoto.github.io/tags/terminal/" class="tag-link">terminal</a>
+  </li>
+  </ul>
+</div>
+
+
+
+  <div class="share-buttons">
+  <a class="twitter-share-button"
+     href="#"
+     title="Share on Twitter"
+     data-url="http://moisoto.github.io/post/unleashing-zsh-tips-and-bits/"
+     data-text="Unleashing ZSH - Tips &amp; Bits"><i class="fab fa-twitter"></i></a>
+
+  <a class="linkedin-share-button"
+     href="#"
+     title="Share on LinkedIn"
+     data-url="http://moisoto.github.io/post/unleashing-zsh-tips-and-bits/"
+     data-text="Unleashing ZSH - Tips &amp; Bits"><i class="fab fa-linkedin-in"></i></a>
+
+  <a class="facebook-share-button"
+     href="#"
+     title="Share on Facebook"
+     data-url="http://moisoto.github.io/post/unleashing-zsh-tips-and-bits/"
+     data-text="Unleashing ZSH - Tips &amp; Bits"><i class="fab fa-facebook"></i></a>
+
+  <a class="telegram-share-button"
+     href="#"
+     title="Share on Telegram"
+     data-url="http://moisoto.github.io/post/unleashing-zsh-tips-and-bits/"
+     data-text="Unleashing ZSH - Tips &amp; Bits"><i class="fab fa-telegram"></i></a>
+
+  <a class="pinterest-share-button"
+     href="#"
+     title="Share on Pinterest"
+     data-url="http://moisoto.github.io/post/unleashing-zsh-tips-and-bits/"
+     data-text="Unleashing ZSH - Tips &amp; Bits"><i class="fab fa-pinterest"></i></a>
+</div>
+
+
+  
+</div>
+  </main>
+
+  <footer>
+  <div>
+    <p>
+      &copy; Moises Soto 2021
+
+      &middot; <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>
+
+      
+    </p>
+  </div>
+</footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+          integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0="
+          crossorigin="anonymous"></script>
+
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/soho.js"></script>
+
+  <script src="/js/blog.js"></script>
+
+  
+</body>
+</html>
