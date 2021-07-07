@@ -6,7 +6,16 @@
     <description>Recent content in Posts on MoiSoto&#39;s Dev Corner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Mar 2021 11:01:40 -0400</lastBuildDate><atom:link href="http://moisoto.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Jul 2021 17:21:04 -0400</lastBuildDate><atom:link href="http://moisoto.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Simplified</title>
+      <link>http://moisoto.github.io/post/git-simplified/</link>
+      <pubDate>Tue, 06 Jul 2021 17:21:04 -0400</pubDate>
+      
+      <guid>http://moisoto.github.io/post/git-simplified/</guid>
+      <description>We are back after a quite long hiatus, and this time will be posting about Git.</description>
+    </item>
+    
     <item>
       <title>Unleashing ZSH - Tips &amp; Bits</title>
       <link>http://moisoto.github.io/post/unleashing-zsh-tips-and-bits/</link>

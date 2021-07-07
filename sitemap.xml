@@ -2,19 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://moisoto.github.io/tags/gists/</loc>
+    <lastmod>2021-07-06T17:21:04-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.github.io/tags/git/</loc>
+    <lastmod>2021-07-06T17:21:04-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.github.io/post/git-simplified/</loc>
+    <lastmod>2021-07-06T17:21:04-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.github.io/tags/github/</loc>
+    <lastmod>2021-07-06T17:21:04-04:00</lastmod>
+  </url><url>
     <loc>http://moisoto.github.io/</loc>
-    <lastmod>2021-03-17T11:01:40-04:00</lastmod>
+    <lastmod>2021-07-06T17:21:04-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.github.io/tags/notes/</loc>
+    <lastmod>2021-07-06T17:21:04-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.github.io/post/</loc>
+    <lastmod>2021-07-06T17:21:04-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.github.io/tags/</loc>
+    <lastmod>2021-07-06T17:21:04-04:00</lastmod>
   </url><url>
     <loc>http://moisoto.github.io/tags/oh-my-zsh/</loc>
     <lastmod>2021-03-17T11:01:40-04:00</lastmod>
   </url><url>
-    <loc>http://moisoto.github.io/post/</loc>
-    <lastmod>2021-03-17T11:01:40-04:00</lastmod>
-  </url><url>
     <loc>http://moisoto.github.io/tags/powerlevel10k/</loc>
-    <lastmod>2021-03-17T11:01:40-04:00</lastmod>
-  </url><url>
-    <loc>http://moisoto.github.io/tags/</loc>
     <lastmod>2021-03-17T11:01:40-04:00</lastmod>
   </url><url>
     <loc>http://moisoto.github.io/tags/terminal/</loc>
@@ -26,20 +41,11 @@
     <loc>http://moisoto.github.io/tags/zsh/</loc>
     <lastmod>2021-03-17T11:01:40-04:00</lastmod>
   </url><url>
-    <loc>http://moisoto.github.io/tags/github/</loc>
-    <lastmod>2021-03-11T22:23:18-04:00</lastmod>
-  </url><url>
     <loc>http://moisoto.github.io/tags/hugo-websites/</loc>
     <lastmod>2021-03-11T22:23:18-04:00</lastmod>
   </url><url>
     <loc>http://moisoto.github.io/post/this-hugo-website-is-public/</loc>
     <lastmod>2021-03-11T22:23:18-04:00</lastmod>
-  </url><url>
-    <loc>http://moisoto.github.io/tags/gists/</loc>
-    <lastmod>2021-03-11T10:52:29-04:00</lastmod>
-  </url><url>
-    <loc>http://moisoto.github.io/tags/notes/</loc>
-    <lastmod>2021-03-11T10:52:29-04:00</lastmod>
   </url><url>
     <loc>http://moisoto.github.io/tags/swift/</loc>
     <lastmod>2021-03-11T10:52:29-04:00</lastmod>

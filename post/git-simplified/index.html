@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Hugo 0.85.0" />
+
+  <title>Git Simplified &middot; MoiSoto&#39;s Dev Corner</title>
+
+  <meta name="description" content="" />
+
+  
+
+<meta itemprop="name" content="Git Simplified">
+<meta itemprop="description" content="We are back after a quite long hiatus, and this time will be posting about Git."><meta itemprop="datePublished" content="2021-07-06T17:21:04-04:00" />
+<meta itemprop="dateModified" content="2021-07-06T17:21:04-04:00" />
+<meta itemprop="wordCount" content="763">
+<meta itemprop="keywords" content="Git,Notes,Github,Gists," />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Git Simplified"/>
+<meta name="twitter:description" content="We are back after a quite long hiatus, and this time will be posting about Git."/>
+
+
+<meta property="og:title" content="Git Simplified" />
+<meta property="og:description" content="We are back after a quite long hiatus, and this time will be posting about Git." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://moisoto.github.io/post/git-simplified/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-07-06T17:21:04-04:00" />
+<meta property="article:modified_time" content="2021-07-06T17:21:04-04:00" />
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type":"Person",
+      "@id": "http://moisoto.github.io/#author",
+      "name": "Moises Soto",
+      "image": {
+        "@type":"ImageObject",
+        
+        "url": "http://moisoto.github.io/images/profilepic.jpg"
+        
+      },
+      "description": "Hosted by GitHub"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "http://moisoto.github.io/#website",
+      "url": "http://moisoto.github.io/",
+      "name": "MoiSoto's Dev Corner",
+      "description": "Hosted by GitHub",
+      "publisher": {
+        "@id": "http://moisoto.github.io/#author"
+      },
+      "inLanguage": "en-us"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "http://moisoto.github.io/post/git-simplified/#webpage",
+      "url": "http://moisoto.github.io/post/git-simplified/",
+      "name": "Git Simplified",
+      "isPartOf": {
+        "@id": "http://moisoto.github.io/#website"
+      },
+      "about": {
+         "@id": "http://moisoto.github.io/#author"
+      },
+      "datePublished": "2021-07-06T17:21:04-04:00",
+      "dateModified": "2021-07-06T17:21:04-04:00",
+      "description": "We are back after a quite long hiatus, and this time will be posting about Git.",
+      "inLanguage": "en-us",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "http://moisoto.github.io/post/git-simplified/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "isPartOf": {
+        "@id": "http://moisoto.github.io/post/git-simplified/#webpage"
+      },
+      "mainEntityOfPage": {
+        "@id": "http://moisoto.github.io/post/git-simplified/#webpage"
+      },
+      "headline": "Git Simplified",
+      "datePublished": "2021-07-06T17:21:04-04:00",
+      "dateModified": "2021-07-06T17:21:04-04:00",
+      "publisher": {
+        "@id": "http://moisoto.github.io/#author"
+      },
+      "keywords": [
+        "Git",
+        "Notes",
+        "Github",
+        "Gists"
+      ],
+      "articleSection": [
+      ],
+      "inLanguage": "en-us",
+      "author": {
+        "@type": "Person",
+        "name":  null 
+      },
+      "potentialAction": [
+        {
+          "@type": "CommentAction",
+          "name": "Comment",
+          "target": [
+            "http://moisoto.github.io/post/git-simplified/#comments"
+          ]
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/print.css"
+        media="print">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/poole.css">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/hyde.css">
+
+  
+
+  <head>
+  
+
+  
+</head>
+
+
+  <link type="text/css" rel="stylesheet" href="/css/blog.css">
+
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+        crossorigin="anonymous" />
+
+  <link rel="apple-touch-icon-precomposed"
+        sizes="144x144"
+        href="/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  </head>
+<body>
+  <aside class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      
+        
+        <div class="author-image">
+          <a href="http://moisoto.github.io/">
+            <img src="/images/profilepic.jpg" class="img-circle img-headshot center" alt="Profile Picture">
+          </a>
+        </div>
+        
+      
+
+      <h1>MoiSoto&#39;s Dev Corner</h1>
+
+      
+      <p class="lead">Hosted by GitHub</p>
+      
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li>
+          <a href="http://moisoto.github.io/">Home</a>
+        </li>
+        <li>
+          <a href="/post/">Posts</a>
+        </li><li>
+          <a href="/about/">About</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="social-icons">
+      
+      <a href="https://github.com/moisoto" rel="me" title="GitHub" target="_blank">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+      
+      <a href="https://twitter.com/moisoto" rel="me" title="Twitter" target="_blank">
+        <i class="fab fa-twitter" aria-hidden="true"></i>
+      </a>
+      
+    </section>
+  </div>
+</aside>
+
+
+  <main class="content container">
+  <div class="post">
+  <h1 class="title">Git Simplified</h1>
+  
+
+  <div class="post-date">
+    <time datetime="2021-07-06T17:21:04-0400">Jul 6, 2021</time> <span class="readtime">&middot; 4 min read</span>
+  </div>
+
+  <div>
+  <p>We are back after a quite long hiatus, and this time will be posting about Git. After all this is a github web page, so what better topic to resume (and hopefully continue) regular posts proadcast.</p>
+<p>I&rsquo;ll be embedding some gists here about simple and regular tasks a beginner will need to make regularly when working with git.</p>
+<h3 id="setting-up-git">Setting up Git</h3>
+<p>You probably have git already available on your system.
+To check if you got it installed and which version you use the command <code>git --version</code>:</p>
+<script src="https://asciinema.org/a/424197.js" id="asciicast-424197" async></script>
+<p>If you get a <code>command not found</code> error you need to install git. It will depend on what system you are running. You can find the different install methods on the official git website at <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">https://git-scm.com/book/en/v2/Getting-Started-Installing-Git</a>. There you will see how to install it on macOS, Windows, and Linux systems. For the sake of completeness I&rsquo;ll show here how to install on Debian based Linux distributions:</p>
+<h5 id="installing-using-apt-command-ubuntu-raspberry-os-etc">Installing using apt command (Ubuntu, Raspberry OS, etc)</h5>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># First update your package list</span>
+sudo apt update
+
+<span style="color:#75715e"># Then install git</span>
+sudo apt install git-all
+</code></pre></div><p><strong>Note</strong>: If you later want to upgrade to a new version you can just use the previous install command, it will upgrade <code>git-all</code> if it&rsquo;s already installed.</p>
+<h3 id="basic-workflow">Basic Workflow</h3>
+<p>When working on small or single developer projects, the git workflow is usually very simple. Let&rsquo;s see the common tasks you will perform.</p>
+<h4 id="initializing-the-repository">Initializing the repository</h4>
+<p>To initialize the git repository you must use the following command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Creates repository with the default initial branch name </span>
+git init
+</code></pre></div><script src="https://asciinema.org/a/424316.js" id="asciicast-424316" speed="3" async></script>
+<h4 id="do-some-work">Do some work</h4>
+<p>Let&rsquo;s run some commands that will create new files in the repository:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Create a README.md file in markdown format</span>
+echo <span style="color:#e6db74">&#34;# RANDOM HEX HASH GENERATOR&#34;</span> &gt; README.md
+
+<span style="color:#75715e"># Create a script</span>
+echo <span style="color:#e6db74">&#34;xxd -u -l 16 -p /dev/urandom &gt; HASHFILE&#34;</span> &gt; hash32.sh
+chmod <span style="color:#ae81ff">744</span> hash32.sh
+
+<span style="color:#75715e"># Run the script that will create a file called HASHFILE</span>
+./hash32.sh
+
+<span style="color:#75715e"># Check repository status</span>
+git status
+</code></pre></div><script src="https://asciinema.org/a/424355.js" id="asciicast-424355" speed="3" async></script>
+<h4 id="stage-files-to-be-committed">Stage files to be committed:</h4>
+<p>These new files are not currently part of the repository. We need to stage them so that git knows we want to add them to the repository:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Stage README.md</span>
+git add README.md
+
+<span style="color:#75715e"># Stage hash32.sh</span>
+git add hash32.sh
+
+<span style="color:#75715e"># Check repository status</span>
+git status
+</code></pre></div><h4 id="commit-files-to-the-repository">Commit files to the repository</h4>
+<p>We added two files to the stage area. They are still not part of the repository. We need to issue a commit command along with a description of the committed changes:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Commit staged files</span>
+git commit-m <span style="color:#e6db74">&#34;Add README.md file and hash32.sh script&#34;</span>
+
+<span style="color:#75715e"># Check repository status</span>
+git status
+</code></pre></div><h4 id="ignoring-files">Ignoring files</h4>
+<p>After performing the commit we see there&rsquo;s still a file that&rsquo;s not part of the repository. That file was generated by the script, and we don&rsquo;t really want it to be part of the repository. We can tell git to ignore the file so it won&rsquo;t be showed when checking the repository status:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Create .gitignore and add a line with filename to be ignored</span>
+echo <span style="color:#e6db74">&#34;HASHFILE&#34;</span> &gt; .gitignore
+
+<span style="color:#75715e"># Check repository status</span>
+git status
+
+<span style="color:#75715e"># Add &amp; Commit the .gitignore file so it becomes part of the repository</span>
+git add .gitignore
+git commit -m <span style="color:#e6db74">&#34;Add .gitignore file&#34;</span>
+
+<span style="color:#75715e"># Check that working tree is now clean</span>
+git status
+</code></pre></div><h4 id="checking-file-differences">Checking file differences</h4>
+<p>Let&rsquo;s add more information to the readme file. We will check the file differences between committed files and unstaged files using the <code>git diff</code> command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Add a line to README.md</span>
+echo <span style="color:#e6db74">&#34;\nRun the hash32.sh script to generate a hash of 32 HEX digits and store it in HASHFILE file.&#34;</span> &gt;&gt; README.md
+
+<span style="color:#75715e"># Check differences</span>
+git diff
+
+<span style="color:#75715e"># Add file to the stage area</span>
+git add README.md
+
+<span style="color:#75715e"># Commit staged file(s)</span>
+git commit -m <span style="color:#e6db74">&#34;Modify README.md file&#34;</span>
+
+<span style="color:#75715e"># Check working tree is clean</span>
+git status
+</code></pre></div><h5 id="checking-commit-history">Checking commit history</h5>
+<p>We have done several commits, each one with a description about the changes being committed. We can see a detailed log or resumed version by using the <code>git log</code> command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Basic but relevant info (won&#39;t show the filenames)</span>
+git log
+
+<span style="color:#75715e"># Same as before but shows filenames</span>
+git log --name-only
+
+<span style="color:#75715e"># Simplified list (one line per commit)</span>
+git log --oneline
+
+<span style="color:#75715e"># Custom simplified list</span>
+git log --pretty<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;format:%C(auto)%h %ad: %s&#39;</span> --date<span style="color:#f92672">=</span>short
+
+<span style="color:#75715e"># Custom simplified list with filenames</span>
+git log --pretty<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;format:%C(auto)%h %ad: %s&#39;</span> --date<span style="color:#f92672">=</span>short --name-only
+</code></pre></div><h3 id="closing-comments">Closing comments</h3>
+<p>This summarizes the basic workflow for local repositories for a single person working on a basic project.</p>
+<p>Some more advanced topics will be covered in later articles:</p>
+<ul>
+<li>
+<p><strong>Working with remote repositories</strong></p>
+</li>
+<li>
+<p><strong>Using Branches and Branching Methodologies</strong></p>
+</li>
+<li>
+<p><strong>Clonning and Forking Repositories</strong></p>
+</li>
+<li>
+<p><strong>Git Submodules</strong></p>
+</li>
+<li>
+<p><strong>Undo commited changes</strong></p>
+</li>
+<li>
+<p><strong>Checking previous versions of commited files</strong></p>
+</li>
+</ul>
+
+  </div>
+
+  
+<div>
+  <ul class="tags">
+  <li>
+    <a href="http://moisoto.github.io/tags/git/" class="tag-link">Git</a>
+  </li>
+  
+  <li>
+    <a href="http://moisoto.github.io/tags/notes/" class="tag-link">Notes</a>
+  </li>
+  
+  <li>
+    <a href="http://moisoto.github.io/tags/github/" class="tag-link">Github</a>
+  </li>
+  
+  <li>
+    <a href="http://moisoto.github.io/tags/gists/" class="tag-link">Gists</a>
+  </li>
+  </ul>
+</div>
+
+
+
+  <div class="share-buttons">
+  <a class="twitter-share-button"
+     href="#"
+     title="Share on Twitter"
+     data-url="http://moisoto.github.io/post/git-simplified/"
+     data-text="Git Simplified"><i class="fab fa-twitter"></i></a>
+
+  <a class="linkedin-share-button"
+     href="#"
+     title="Share on LinkedIn"
+     data-url="http://moisoto.github.io/post/git-simplified/"
+     data-text="Git Simplified"><i class="fab fa-linkedin-in"></i></a>
+
+  <a class="facebook-share-button"
+     href="#"
+     title="Share on Facebook"
+     data-url="http://moisoto.github.io/post/git-simplified/"
+     data-text="Git Simplified"><i class="fab fa-facebook"></i></a>
+
+  <a class="telegram-share-button"
+     href="#"
+     title="Share on Telegram"
+     data-url="http://moisoto.github.io/post/git-simplified/"
+     data-text="Git Simplified"><i class="fab fa-telegram"></i></a>
+
+  <a class="pinterest-share-button"
+     href="#"
+     title="Share on Pinterest"
+     data-url="http://moisoto.github.io/post/git-simplified/"
+     data-text="Git Simplified"><i class="fab fa-pinterest"></i></a>
+</div>
+
+
+  
+</div>
+  </main>
+
+  <footer>
+  <div>
+    <p>
+      &copy; Moises Soto 2021
+
+      &middot; <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>
+
+      
+    </p>
+  </div>
+</footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+          integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0="
+          crossorigin="anonymous"></script>
+
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/soho.js"></script>
+
+  <script src="/js/blog.js"></script>
+
+  
+</body>
+</html>
