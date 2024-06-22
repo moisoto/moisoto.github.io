@@ -4,68 +4,44 @@
     <title>Posts on MoiSoto&#39;s Dev Corner</title>
     <link>http://moisoto.github.io/post/</link>
     <description>Recent content in Posts on MoiSoto&#39;s Dev Corner</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Jul 2021 17:21:04 -0400</lastBuildDate><atom:link href="http://moisoto.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Jul 2021 17:21:04 -0400</lastBuildDate>
+    <atom:link href="http://moisoto.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git Simplified</title>
       <link>http://moisoto.github.io/post/git-simplified/</link>
       <pubDate>Tue, 06 Jul 2021 17:21:04 -0400</pubDate>
-      
       <guid>http://moisoto.github.io/post/git-simplified/</guid>
       <description>We are back after a quite long hiatus, and this time will be posting about Git.</description>
     </item>
-    
     <item>
       <title>Unleashing ZSH - Tips &amp; Bits</title>
       <link>http://moisoto.github.io/post/unleashing-zsh-tips-and-bits/</link>
       <pubDate>Wed, 17 Mar 2021 11:01:40 -0400</pubDate>
-      
       <guid>http://moisoto.github.io/post/unleashing-zsh-tips-and-bits/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.github.io/images/ZSH.png#floatleft&#34; alt=&#34;ZSH-Terminal&#34;&gt;&lt;/p&gt;
-&lt;p&gt;The adoption of Z-Shell (ZSH) as the default on macOS Catalina may seem a letdown for most bash supporters. But I digress, ZSH brings with it some nice features, and more importantly you can use Oh-My-Zsh which is a framework with plugins for a lot of languages, programs and platforms.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Keep reading to know more about ZSH and see some usefull links to get you started on this new shell features&amp;hellip;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.github.io/images/ZSH.png#floatleft&#34; alt=&#34;ZSH-Terminal&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The adoption of Z-Shell (ZSH) as the default on macOS Catalina may seem a letdown for most bash supporters. But I digress, ZSH brings with it some nice features, and more importantly you can use Oh-My-Zsh which is a framework with plugins for a lot of languages, programs and platforms.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Keep reading to know more about ZSH and see some usefull links to get you started on this new shell features&amp;hellip;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>This Hugo Website Is Public!</title>
       <link>http://moisoto.github.io/post/this-hugo-website-is-public/</link>
       <pubDate>Thu, 11 Mar 2021 22:23:18 -0400</pubDate>
-      
       <guid>http://moisoto.github.io/post/this-hugo-website-is-public/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.github.io/images/GitHub-Mark-120px-plus.png#floatleft&#34; alt=&#34;GitHub-Octocat&#34;&gt;&lt;/p&gt;
-&lt;p&gt;The GitHub repository used for to generate this website is public. And the README.md file contains lots of info on how it was created.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;please-check-it-out-at&#34;&gt;Please check it out at:&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/moisoto/github-page.dev&#34;&gt;https://github.com/moisoto/github-page.dev&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.github.io/images/GitHub-Mark-120px-plus.png#floatleft&#34; alt=&#34;GitHub-Octocat&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The GitHub repository used for to generate this website is public. And the README.md file contains lots of info on how it was created.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;please-check-it-out-at&#34;&gt;Please check it out at:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/moisoto/github-page.dev&#34;&gt;https://github.com/moisoto/github-page.dev&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Swift Programming Notes</title>
       <link>http://moisoto.github.io/post/swift-programming-notes/</link>
       <pubDate>Thu, 11 Mar 2021 10:52:29 -0400</pubDate>
-      
       <guid>http://moisoto.github.io/post/swift-programming-notes/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.github.io/images/swift_logo_plain.png#floatleft&#34; alt=&#34;Swift-Logo&#34;&gt;&lt;/p&gt;
-&lt;p&gt;I decided to switch from Objective-C to Swift not long ago, and recently updated some notes for Swift 5.4 to include some new language features and share them on a gist on my main GitHub account.&lt;/p&gt;
-&lt;div style=&#34;text-align: center;&#34;&gt;
-&lt;p&gt;
-&lt;h3 id=&#34;you-can-check-it-here&#34;&gt;You can check it here:&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://gist.github.com/moisoto/1d222dda72e8816287d5ac792f5a6248&#34;&gt;Swift Playground Examples for Beginners · GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;/p&gt;
-&lt;/div&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.github.io/images/swift_logo_plain.png#floatleft&#34; alt=&#34;Swift-Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I decided to switch from Objective-C to Swift not long ago, and recently updated some notes for Swift 5.4 to include some new language features and share them on a gist on my main GitHub account.&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xA;&lt;p&gt;&#xA;&lt;h3 id=&#34;you-can-check-it-here&#34;&gt;You can check it here:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gist.github.com/moisoto/1d222dda72e8816287d5ac792f5a6248&#34;&gt;Swift Playground Examples for Beginners · GitHub&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
-    
     <item>
       <title>Welcome to My Github Page</title>
       <link>http://moisoto.github.io/post/welcome-to-my-github-page/</link>
       <pubDate>Wed, 10 Mar 2021 22:18:04 -0400</pubDate>
-      
       <guid>http://moisoto.github.io/post/welcome-to-my-github-page/</guid>
-      <description>&lt;h1 id=&#34;today-i-found-out-about-github-pages-so-why-not-make-one&#34;&gt;Today I found out about GitHub Pages! So, why not make one?&lt;/h1&gt;
-&lt;h4 id=&#34;click-below-and-check-my-welcome-post&#34;&gt;Click below and check my Welcome Post&amp;hellip;&lt;/h4&gt;</description>
+      <description>&lt;h1 id=&#34;today-i-found-out-about-github-pages-so-why-not-make-one&#34;&gt;Today I found out about GitHub Pages! So, why not make one?&lt;/h1&gt;&#xA;&lt;h4 id=&#34;click-below-and-check-my-welcome-post&#34;&gt;Click below and check my Welcome Post&amp;hellip;&lt;/h4&gt;</description>
     </item>
-    
   </channel>
 </rss>

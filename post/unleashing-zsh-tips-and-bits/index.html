@@ -3,41 +3,45 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="generator" content="Hugo 0.85.0" />
+  <meta name="generator" content="Hugo 0.127.0">
 
   <title>Unleashing ZSH - Tips &amp; Bits &middot; MoiSoto&#39;s Dev Corner</title>
 
   <meta name="description" content="" />
 
   
-
-<meta itemprop="name" content="Unleashing ZSH - Tips &amp; Bits">
-<meta itemprop="description" content="
+  <meta itemprop="name" content="Unleashing ZSH - Tips &amp; Bits">
+  <meta itemprop="description" content="
 The adoption of Z-Shell (ZSH) as the default on macOS Catalina may seem a letdown for most bash supporters. But I digress, ZSH brings with it some nice features, and more importantly you can use Oh-My-Zsh which is a framework with plugins for a lot of languages, programs and platforms.
+Keep reading to know more about ZSH and see some usefull links to get you started on this new shell features…">
+  <meta itemprop="datePublished" content="2021-03-17T11:01:40-04:00">
+  <meta itemprop="dateModified" content="2021-03-17T11:01:40-04:00">
+  <meta itemprop="wordCount" content="990">
+  <meta itemprop="keywords" content="Zsh,Oh-My-Zsh,Powerlevel10k,Terminal">
 
-Keep reading to know more about ZSH and see some usefull links to get you started on this new shell features&hellip;"><meta itemprop="datePublished" content="2021-03-17T11:01:40-04:00" />
-<meta itemprop="dateModified" content="2021-03-17T11:01:40-04:00" />
-<meta itemprop="wordCount" content="990">
-<meta itemprop="keywords" content="zsh,oh-my-zsh,powerlevel10k,terminal," />
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Unleashing ZSH - Tips &amp; Bits"/>
-<meta name="twitter:description" content="
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Unleashing ZSH - Tips &amp; Bits">
+  <meta name="twitter:description" content="
 The adoption of Z-Shell (ZSH) as the default on macOS Catalina may seem a letdown for most bash supporters. But I digress, ZSH brings with it some nice features, and more importantly you can use Oh-My-Zsh which is a framework with plugins for a lot of languages, programs and platforms.
+Keep reading to know more about ZSH and see some usefull links to get you started on this new shell features…">
 
-Keep reading to know more about ZSH and see some usefull links to get you started on this new shell features&hellip;"/>
 
-
-<meta property="og:title" content="Unleashing ZSH - Tips &amp; Bits" />
-<meta property="og:description" content="
+<meta property="og:url" content="http://moisoto.github.io/post/unleashing-zsh-tips-and-bits/">
+  <meta property="og:site_name" content="MoiSoto&#39;s Dev Corner">
+  <meta property="og:title" content="Unleashing ZSH - Tips &amp; Bits">
+  <meta property="og:description" content="
 The adoption of Z-Shell (ZSH) as the default on macOS Catalina may seem a letdown for most bash supporters. But I digress, ZSH brings with it some nice features, and more importantly you can use Oh-My-Zsh which is a framework with plugins for a lot of languages, programs and platforms.
-
-Keep reading to know more about ZSH and see some usefull links to get you started on this new shell features&hellip;" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://moisoto.github.io/post/unleashing-zsh-tips-and-bits/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2021-03-17T11:01:40-04:00" />
-<meta property="article:modified_time" content="2021-03-17T11:01:40-04:00" />
-
+Keep reading to know more about ZSH and see some usefull links to get you started on this new shell features…">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2021-03-17T11:01:40-04:00">
+    <meta property="article:modified_time" content="2021-03-17T11:01:40-04:00">
+    <meta property="article:tag" content="Zsh">
+    <meta property="article:tag" content="Oh-My-Zsh">
+    <meta property="article:tag" content="Powerlevel10k">
+    <meta property="article:tag" content="Terminal">
 
 
 
@@ -107,10 +111,10 @@ Keep reading to know more about ZSH and see some usefull links to get you starte
         "@id": "http://moisoto.github.io/#author"
       },
       "keywords": [
-        "zsh",
-        "oh-my-zsh",
-        "powerlevel10k",
-        "terminal"
+        "Zsh",
+        "Oh-My-Zsh",
+        "Powerlevel10k",
+        "Terminal"
       ],
       "articleSection": [
       ],
@@ -150,11 +154,9 @@ Keep reading to know more about ZSH and see some usefull links to get you starte
 
   
 
-  <head>
-  
+    
 
   
-</head>
 
 
   <link type="text/css" rel="stylesheet" href="/css/blog.css">
@@ -249,25 +251,25 @@ Keep reading to know more about ZSH and see some usefull links to get you starte
 <hr>
 <h2 id="making-zsh-your-default-shell">Making ZSH your default shell</h2>
 <p>If you are on macOS Catalina, your default shell is most likely zsh but to make sure, run the following commands:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Check your default shell:</span>
-echo $SHELL
-
-<span style="color:#75715e"># Check your current shell:</span>
-ps -o comm<span style="color:#f92672">=</span> $$
-</code></pre></div><br />
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># Check your default shell:</span>
+</span></span><span style="display:flex;"><span>echo $SHELL
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Check your current shell:</span>
+</span></span><span style="display:flex;"><span>ps -o comm<span style="color:#f92672">=</span> $$
+</span></span></code></pre></div><br />
 
 <p>If the $SHELL variable shows a different shell, run the following command:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Copy and paste this</span>
-chsh -s /bin/zsh
-</code></pre></div><br />
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># Copy and paste this</span>
+</span></span><span style="display:flex;"><span>chsh -s /bin/zsh
+</span></span></code></pre></div><br />
 
 <p>After this, close and reopen your terminal program, then run <strong><code>ps -o comm= $$</code></strong> to make sure your terminal is using ZSH as your shell. If the output is not <strong><code>-zsh</code></strong>, then you probably have overrided your shell on your terminal program preferences and need to specify /bin/zsh as your shell in your app preferences.</p>
 <hr>
 <h2 id="installing-oh-my-zsh">Installing Oh-My-Zsh</h2>
 <p>At the time of this writing, installing ohmyzsh on macOS is as simple as running this command:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sh -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
-</code></pre></div><p>In case the repository or install instructions change in the future, you can go to <a href="https://ohmyz.sh/#install">Oh-My-Zsh home</a> page and check current install instructions.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sh -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</span></span></code></pre></div><p>In case the repository or install instructions change in the future, you can go to <a href="https://ohmyz.sh/#install">Oh-My-Zsh home</a> page and check current install instructions.</p>
 <p><strong>Note:</strong> Read the output of the installation. If you see warning like file permissions not set properly (usually the /usr/local/share/zsh folder) the correct permission for zsh folders is 755 (run the command <code>chmod 755 &lt;foldername&gt;</code> in the corresponding reported folders).</p>
 <p>Now exit your terminal session and start a new one to make sure all Oh-My-Zsh environment variables are set properly.</p>
 <hr>
@@ -275,13 +277,13 @@ chsh -s /bin/zsh
 <p>Now that you have Oh-My-Zsh installed, the next step is to customize it to your liking. The theme I use and recommend is called <a href="https://github.com/romkatv/powerlevel10k">Powerlevel10k</a>. It can be installed with or without Oh-My-Zsh. We will of course use the Oh-My-Zsh install method.</p>
 <h4 id="installing-powerlevel10k">Installing Powerlevel10k</h4>
 <p>Since we are using Oh-My-Zsh, we just need to use the following command to install Powerlevel10K:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git clone --depth<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span> <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>https://github.com/romkatv/powerlevel10k.git <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span><span style="color:#e6db74">${</span>ZSH_CUSTOM<span style="color:#66d9ef">:-</span>$HOME/.oh-my-zsh/custom<span style="color:#e6db74">}</span>/themes/powerlevel10k
-</code></pre></div><p>After running this command you&rsquo;ll have the Powerlevel10k theme downloaded into your custom themes folder. Now all you need to do is edit your <em><code>~/.zshrc</code></em> file and specify your theme. You&rsquo;ll need to change the value of <em>ZSH_THEME</em> variable, which normally is set to <em>robbyrussell</em> theme. Comment the default value and add Powerlevel10k like this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#ZSH_THEME=&#34;robbyrussell&#34;</span>
-ZSH_THEME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;powerlevel10k/powerlevel10k&#34;</span>
-</code></pre></div><p>Save your <em><code>~/.zshrc</code></em> file, exit your current session and open a new terminal window. Powerlevel10k configuration utility will be run automatically, you will be asked a few questions about how you want Powerlevel10k to be configured. These are my recommended settings but feel free to experiment (you can re-confifure your setup by executing the command <code>p10k configure</code> later on):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>git clone --depth<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>https://github.com/romkatv/powerlevel10k.git <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span><span style="color:#e6db74">${</span>ZSH_CUSTOM<span style="color:#66d9ef">:-</span>$HOME/.oh-my-zsh/custom<span style="color:#e6db74">}</span>/themes/powerlevel10k
+</span></span></code></pre></div><p>After running this command you&rsquo;ll have the Powerlevel10k theme downloaded into your custom themes folder. Now all you need to do is edit your <em><code>~/.zshrc</code></em> file and specify your theme. You&rsquo;ll need to change the value of <em>ZSH_THEME</em> variable, which normally is set to <em>robbyrussell</em> theme. Comment the default value and add Powerlevel10k like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e">#ZSH_THEME=&#34;robbyrussell&#34;</span>
+</span></span><span style="display:flex;"><span>ZSH_THEME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;powerlevel10k/powerlevel10k&#34;</span>
+</span></span></code></pre></div><p>Save your <em><code>~/.zshrc</code></em> file, exit your current session and open a new terminal window. Powerlevel10k configuration utility will be run automatically, you will be asked a few questions about how you want Powerlevel10k to be configured. These are my recommended settings but feel free to experiment (you can re-confifure your setup by executing the command <code>p10k configure</code> later on):</p>
 <ul>
 <li><strong>Prompt Style:</strong> Rainbow</li>
 <li><strong>Show Current Time?:</strong> No</li>
@@ -314,46 +316,46 @@ ZSH_THEME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;po
 <ul>
 <li>
 <p><strong>Adding a Warp Point:</strong></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ cd ~/go/src/golang.org/x/tools/playground
-$ wd add goplay
- * Warp point added
-$ cd ~/go/src/github.com/google/uuid
-$ wd add uuid
- * Warp point added
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ cd ~/go/src/golang.org/x/tools/playground
+</span></span><span style="display:flex;"><span>$ wd add goplay
+</span></span><span style="display:flex;"><span> * Warp point added
+</span></span><span style="display:flex;"><span>$ cd ~/go/src/github.com/google/uuid
+</span></span><span style="display:flex;"><span>$ wd add uuid
+</span></span><span style="display:flex;"><span> * Warp point added
+</span></span></code></pre></div></li>
 </ul>
 <br />
 
 <ul>
 <li>
 <p><strong>Moving to a Warp Point:</strong></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ wd goplay
-$ pwd
-/Users/macuser/go/src/golang.org/x/tools/playground
-$ wd uuid
-$ pwd
-/Users/macuser/go/src/github.com/google/uuid
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ wd goplay
+</span></span><span style="display:flex;"><span>$ pwd
+</span></span><span style="display:flex;"><span>/Users/macuser/go/src/golang.org/x/tools/playground
+</span></span><span style="display:flex;"><span>$ wd uuid
+</span></span><span style="display:flex;"><span>$ pwd
+</span></span><span style="display:flex;"><span>/Users/macuser/go/src/github.com/google/uuid
+</span></span></code></pre></div></li>
 </ul>
 <br />
 
 <ul>
 <li>
 <p><strong>List your current Warp Points:</strong></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ wd list
- * All warp points:
-goplay  -&gt;  ~/go/src/golang.org/x/tools/playground
-  uuis  -&gt;  ~/go/src/github.com/google/uuid
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ wd list
+</span></span><span style="display:flex;"><span> * All warp points:
+</span></span><span style="display:flex;"><span>goplay  -&gt;  ~/go/src/golang.org/x/tools/playground
+</span></span><span style="display:flex;"><span>  uuis  -&gt;  ~/go/src/github.com/google/uuid
+</span></span></code></pre></div></li>
 </ul>
 <br />
 
 <ul>
 <li>
 <p><strong>Add Warp Point manually to config:</strong> Modify directly the file <em>~/.warprc</em> which would now contain the warp points as follow:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">goplay:~/go/src/golang.org/x/tools/playground
-uuid:~/go/src/github.com/google/uuid
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>goplay:~/go/src/golang.org/x/tools/playground
+</span></span><span style="display:flex;"><span>uuid:~/go/src/github.com/google/uuid
+</span></span></code></pre></div></li>
 </ul>
 <br />
 
@@ -367,27 +369,27 @@ uuid:~/go/src/github.com/google/uuid
 <hr>
 <h3 id="how-to-add-these-plugins">How to add these plugins:</h3>
 <p>Adding plugins to Oh-My-Zsh is really easy, just edit the file ~/.zshrc and change the line that says <code>plugins=()</code>. To add the previously listed plugins it should read as follows:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">plugins<span style="color:#f92672">=(</span>dircycle wd git golang iterm2 tmux<span style="color:#f92672">)</span>
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>plugins<span style="color:#f92672">=(</span>dircycle wd git golang iterm2 tmux<span style="color:#f92672">)</span>
+</span></span></code></pre></div>
   </div>
 
   
 <div>
   <ul class="tags">
   <li>
-    <a href="http://moisoto.github.io/tags/zsh/" class="tag-link">zsh</a>
+    <a href="http://moisoto.github.io/tags/zsh/" class="tag-link">Zsh</a>
   </li>
   
   <li>
-    <a href="http://moisoto.github.io/tags/oh-my-zsh/" class="tag-link">oh-my-zsh</a>
+    <a href="http://moisoto.github.io/tags/oh-my-zsh/" class="tag-link">Oh-My-Zsh</a>
   </li>
   
   <li>
-    <a href="http://moisoto.github.io/tags/powerlevel10k/" class="tag-link">powerlevel10k</a>
+    <a href="http://moisoto.github.io/tags/powerlevel10k/" class="tag-link">Powerlevel10k</a>
   </li>
   
   <li>
-    <a href="http://moisoto.github.io/tags/terminal/" class="tag-link">terminal</a>
+    <a href="http://moisoto.github.io/tags/terminal/" class="tag-link">Terminal</a>
   </li>
   </ul>
 </div>
@@ -434,7 +436,7 @@ uuid:~/go/src/github.com/google/uuid
   <footer>
   <div>
     <p>
-      &copy; Moises Soto 2021
+      &copy; Moises Soto 2024
 
       &middot; <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>
 
@@ -455,5 +457,13 @@ uuid:~/go/src/github.com/google/uuid
   <script src="/js/blog.js"></script>
 
   
+
+
+    
+      
+  
+
+
+    
 </body>
 </html>

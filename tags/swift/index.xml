@@ -4,24 +4,16 @@
     <title>Swift on MoiSoto&#39;s Dev Corner</title>
     <link>http://moisoto.github.io/tags/swift/</link>
     <description>Recent content in Swift on MoiSoto&#39;s Dev Corner</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Mar 2021 10:52:29 -0400</lastBuildDate><atom:link href="http://moisoto.github.io/tags/swift/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Mar 2021 10:52:29 -0400</lastBuildDate>
+    <atom:link href="http://moisoto.github.io/tags/swift/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Swift Programming Notes</title>
       <link>http://moisoto.github.io/post/swift-programming-notes/</link>
       <pubDate>Thu, 11 Mar 2021 10:52:29 -0400</pubDate>
-      
       <guid>http://moisoto.github.io/post/swift-programming-notes/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.github.io/images/swift_logo_plain.png#floatleft&#34; alt=&#34;Swift-Logo&#34;&gt;&lt;/p&gt;
-&lt;p&gt;I decided to switch from Objective-C to Swift not long ago, and recently updated some notes for Swift 5.4 to include some new language features and share them on a gist on my main GitHub account.&lt;/p&gt;
-&lt;div style=&#34;text-align: center;&#34;&gt;
-&lt;p&gt;
-&lt;h3 id=&#34;you-can-check-it-here&#34;&gt;You can check it here:&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://gist.github.com/moisoto/1d222dda72e8816287d5ac792f5a6248&#34;&gt;Swift Playground Examples for Beginners · GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;/p&gt;
-&lt;/div&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.github.io/images/swift_logo_plain.png#floatleft&#34; alt=&#34;Swift-Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I decided to switch from Objective-C to Swift not long ago, and recently updated some notes for Swift 5.4 to include some new language features and share them on a gist on my main GitHub account.&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xA;&lt;p&gt;&#xA;&lt;h3 id=&#34;you-can-check-it-here&#34;&gt;You can check it here:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gist.github.com/moisoto/1d222dda72e8816287d5ac792f5a6248&#34;&gt;Swift Playground Examples for Beginners · GitHub&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
-    
   </channel>
 </rss>

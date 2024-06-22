@@ -3,32 +3,39 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="generator" content="Hugo 0.85.0" />
+  <meta name="generator" content="Hugo 0.127.0">
 
   <title>Git Simplified &middot; MoiSoto&#39;s Dev Corner</title>
 
   <meta name="description" content="" />
 
   
-
-<meta itemprop="name" content="Git Simplified">
-<meta itemprop="description" content="We are back after a quite long hiatus, and this time will be posting about Git."><meta itemprop="datePublished" content="2021-07-06T17:21:04-04:00" />
-<meta itemprop="dateModified" content="2021-07-06T17:21:04-04:00" />
-<meta itemprop="wordCount" content="763">
-<meta itemprop="keywords" content="Git,Notes,Github,Gists," />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Git Simplified"/>
-<meta name="twitter:description" content="We are back after a quite long hiatus, and this time will be posting about Git."/>
+  <meta itemprop="name" content="Git Simplified">
+  <meta itemprop="description" content="We are back after a quite long hiatus, and this time will be posting about Git.">
+  <meta itemprop="datePublished" content="2021-07-06T17:21:04-04:00">
+  <meta itemprop="dateModified" content="2021-07-06T17:21:04-04:00">
+  <meta itemprop="wordCount" content="763">
+  <meta itemprop="keywords" content="Git,Notes,Github,Gists">
 
 
-<meta property="og:title" content="Git Simplified" />
-<meta property="og:description" content="We are back after a quite long hiatus, and this time will be posting about Git." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://moisoto.github.io/post/git-simplified/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2021-07-06T17:21:04-04:00" />
-<meta property="article:modified_time" content="2021-07-06T17:21:04-04:00" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Git Simplified">
+  <meta name="twitter:description" content="We are back after a quite long hiatus, and this time will be posting about Git.">
 
+
+<meta property="og:url" content="http://moisoto.github.io/post/git-simplified/">
+  <meta property="og:site_name" content="MoiSoto&#39;s Dev Corner">
+  <meta property="og:title" content="Git Simplified">
+  <meta property="og:description" content="We are back after a quite long hiatus, and this time will be posting about Git.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2021-07-06T17:21:04-04:00">
+    <meta property="article:modified_time" content="2021-07-06T17:21:04-04:00">
+    <meta property="article:tag" content="Git">
+    <meta property="article:tag" content="Notes">
+    <meta property="article:tag" content="Github">
+    <meta property="article:tag" content="Gists">
 
 
 
@@ -141,11 +148,9 @@
 
   
 
-  <head>
-  
+    
 
   
-</head>
 
 
   <link type="text/css" rel="stylesheet" href="/css/blog.css">
@@ -233,98 +238,98 @@ To check if you got it installed and which version you use the command <code>git
 <script src="https://asciinema.org/a/424197.js" id="asciicast-424197" async></script>
 <p>If you get a <code>command not found</code> error you need to install git. It will depend on what system you are running. You can find the different install methods on the official git website at <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">https://git-scm.com/book/en/v2/Getting-Started-Installing-Git</a>. There you will see how to install it on macOS, Windows, and Linux systems. For the sake of completeness I&rsquo;ll show here how to install on Debian based Linux distributions:</p>
 <h5 id="installing-using-apt-command-ubuntu-raspberry-os-etc">Installing using apt command (Ubuntu, Raspberry OS, etc)</h5>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># First update your package list</span>
-sudo apt update
-
-<span style="color:#75715e"># Then install git</span>
-sudo apt install git-all
-</code></pre></div><p><strong>Note</strong>: If you later want to upgrade to a new version you can just use the previous install command, it will upgrade <code>git-all</code> if it&rsquo;s already installed.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># First update your package list</span>
+</span></span><span style="display:flex;"><span>sudo apt update
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Then install git</span>
+</span></span><span style="display:flex;"><span>sudo apt install git-all
+</span></span></code></pre></div><p><strong>Note</strong>: If you later want to upgrade to a new version you can just use the previous install command, it will upgrade <code>git-all</code> if it&rsquo;s already installed.</p>
 <h3 id="basic-workflow">Basic Workflow</h3>
 <p>When working on small or single developer projects, the git workflow is usually very simple. Let&rsquo;s see the common tasks you will perform.</p>
 <h4 id="initializing-the-repository">Initializing the repository</h4>
 <p>To initialize the git repository you must use the following command:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Creates repository with the default initial branch name </span>
-git init
-</code></pre></div><script src="https://asciinema.org/a/424316.js" id="asciicast-424316" speed="3" async></script>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># Creates repository with the default initial branch name </span>
+</span></span><span style="display:flex;"><span>git init
+</span></span></code></pre></div><script src="https://asciinema.org/a/424316.js" id="asciicast-424316" speed="3" async></script>
 <h4 id="do-some-work">Do some work</h4>
 <p>Let&rsquo;s run some commands that will create new files in the repository:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Create a README.md file in markdown format</span>
-echo <span style="color:#e6db74">&#34;# RANDOM HEX HASH GENERATOR&#34;</span> &gt; README.md
-
-<span style="color:#75715e"># Create a script</span>
-echo <span style="color:#e6db74">&#34;xxd -u -l 16 -p /dev/urandom &gt; HASHFILE&#34;</span> &gt; hash32.sh
-chmod <span style="color:#ae81ff">744</span> hash32.sh
-
-<span style="color:#75715e"># Run the script that will create a file called HASHFILE</span>
-./hash32.sh
-
-<span style="color:#75715e"># Check repository status</span>
-git status
-</code></pre></div><script src="https://asciinema.org/a/424355.js" id="asciicast-424355" speed="3" async></script>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># Create a README.md file in markdown format</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;# RANDOM HEX HASH GENERATOR&#34;</span> &gt; README.md
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Create a script</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;xxd -u -l 16 -p /dev/urandom &gt; HASHFILE&#34;</span> &gt; hash32.sh
+</span></span><span style="display:flex;"><span>chmod <span style="color:#ae81ff">744</span> hash32.sh
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Run the script that will create a file called HASHFILE</span>
+</span></span><span style="display:flex;"><span>./hash32.sh
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Check repository status</span>
+</span></span><span style="display:flex;"><span>git status
+</span></span></code></pre></div><script src="https://asciinema.org/a/424355.js" id="asciicast-424355" speed="3" async></script>
 <h4 id="stage-files-to-be-committed">Stage files to be committed:</h4>
 <p>These new files are not currently part of the repository. We need to stage them so that git knows we want to add them to the repository:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Stage README.md</span>
-git add README.md
-
-<span style="color:#75715e"># Stage hash32.sh</span>
-git add hash32.sh
-
-<span style="color:#75715e"># Check repository status</span>
-git status
-</code></pre></div><h4 id="commit-files-to-the-repository">Commit files to the repository</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># Stage README.md</span>
+</span></span><span style="display:flex;"><span>git add README.md
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Stage hash32.sh</span>
+</span></span><span style="display:flex;"><span>git add hash32.sh
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Check repository status</span>
+</span></span><span style="display:flex;"><span>git status
+</span></span></code></pre></div><h4 id="commit-files-to-the-repository">Commit files to the repository</h4>
 <p>We added two files to the stage area. They are still not part of the repository. We need to issue a commit command along with a description of the committed changes:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Commit staged files</span>
-git commit-m <span style="color:#e6db74">&#34;Add README.md file and hash32.sh script&#34;</span>
-
-<span style="color:#75715e"># Check repository status</span>
-git status
-</code></pre></div><h4 id="ignoring-files">Ignoring files</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># Commit staged files</span>
+</span></span><span style="display:flex;"><span>git commit-m <span style="color:#e6db74">&#34;Add README.md file and hash32.sh script&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Check repository status</span>
+</span></span><span style="display:flex;"><span>git status
+</span></span></code></pre></div><h4 id="ignoring-files">Ignoring files</h4>
 <p>After performing the commit we see there&rsquo;s still a file that&rsquo;s not part of the repository. That file was generated by the script, and we don&rsquo;t really want it to be part of the repository. We can tell git to ignore the file so it won&rsquo;t be showed when checking the repository status:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Create .gitignore and add a line with filename to be ignored</span>
-echo <span style="color:#e6db74">&#34;HASHFILE&#34;</span> &gt; .gitignore
-
-<span style="color:#75715e"># Check repository status</span>
-git status
-
-<span style="color:#75715e"># Add &amp; Commit the .gitignore file so it becomes part of the repository</span>
-git add .gitignore
-git commit -m <span style="color:#e6db74">&#34;Add .gitignore file&#34;</span>
-
-<span style="color:#75715e"># Check that working tree is now clean</span>
-git status
-</code></pre></div><h4 id="checking-file-differences">Checking file differences</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># Create .gitignore and add a line with filename to be ignored</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;HASHFILE&#34;</span> &gt; .gitignore
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Check repository status</span>
+</span></span><span style="display:flex;"><span>git status
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Add &amp; Commit the .gitignore file so it becomes part of the repository</span>
+</span></span><span style="display:flex;"><span>git add .gitignore
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Add .gitignore file&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Check that working tree is now clean</span>
+</span></span><span style="display:flex;"><span>git status
+</span></span></code></pre></div><h4 id="checking-file-differences">Checking file differences</h4>
 <p>Let&rsquo;s add more information to the readme file. We will check the file differences between committed files and unstaged files using the <code>git diff</code> command:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Add a line to README.md</span>
-echo <span style="color:#e6db74">&#34;\nRun the hash32.sh script to generate a hash of 32 HEX digits and store it in HASHFILE file.&#34;</span> &gt;&gt; README.md
-
-<span style="color:#75715e"># Check differences</span>
-git diff
-
-<span style="color:#75715e"># Add file to the stage area</span>
-git add README.md
-
-<span style="color:#75715e"># Commit staged file(s)</span>
-git commit -m <span style="color:#e6db74">&#34;Modify README.md file&#34;</span>
-
-<span style="color:#75715e"># Check working tree is clean</span>
-git status
-</code></pre></div><h5 id="checking-commit-history">Checking commit history</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># Add a line to README.md</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;\nRun the hash32.sh script to generate a hash of 32 HEX digits and store it in HASHFILE file.&#34;</span> &gt;&gt; README.md
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Check differences</span>
+</span></span><span style="display:flex;"><span>git diff
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Add file to the stage area</span>
+</span></span><span style="display:flex;"><span>git add README.md
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Commit staged file(s)</span>
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Modify README.md file&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Check working tree is clean</span>
+</span></span><span style="display:flex;"><span>git status
+</span></span></code></pre></div><h5 id="checking-commit-history">Checking commit history</h5>
 <p>We have done several commits, each one with a description about the changes being committed. We can see a detailed log or resumed version by using the <code>git log</code> command:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Basic but relevant info (won&#39;t show the filenames)</span>
-git log
-
-<span style="color:#75715e"># Same as before but shows filenames</span>
-git log --name-only
-
-<span style="color:#75715e"># Simplified list (one line per commit)</span>
-git log --oneline
-
-<span style="color:#75715e"># Custom simplified list</span>
-git log --pretty<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;format:%C(auto)%h %ad: %s&#39;</span> --date<span style="color:#f92672">=</span>short
-
-<span style="color:#75715e"># Custom simplified list with filenames</span>
-git log --pretty<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;format:%C(auto)%h %ad: %s&#39;</span> --date<span style="color:#f92672">=</span>short --name-only
-</code></pre></div><h3 id="closing-comments">Closing comments</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># Basic but relevant info (won&#39;t show the filenames)</span>
+</span></span><span style="display:flex;"><span>git log
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Same as before but shows filenames</span>
+</span></span><span style="display:flex;"><span>git log --name-only
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Simplified list (one line per commit)</span>
+</span></span><span style="display:flex;"><span>git log --oneline
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Custom simplified list</span>
+</span></span><span style="display:flex;"><span>git log --pretty<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;format:%C(auto)%h %ad: %s&#39;</span> --date<span style="color:#f92672">=</span>short
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Custom simplified list with filenames</span>
+</span></span><span style="display:flex;"><span>git log --pretty<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;format:%C(auto)%h %ad: %s&#39;</span> --date<span style="color:#f92672">=</span>short --name-only
+</span></span></code></pre></div><h3 id="closing-comments">Closing comments</h3>
 <p>This summarizes the basic workflow for local repositories for a single person working on a basic project.</p>
 <p>Some more advanced topics will be covered in later articles:</p>
 <ul>
@@ -413,7 +418,7 @@ git log --pretty<span style="color:#f92672">=</span><span style="color:#e6db74">
   <footer>
   <div>
     <p>
-      &copy; Moises Soto 2021
+      &copy; Moises Soto 2024
 
       &middot; <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>
 
@@ -434,5 +439,13 @@ git log --pretty<span style="color:#f92672">=</span><span style="color:#e6db74">
   <script src="/js/blog.js"></script>
 
   
+
+
+    
+      
+  
+
+
+    
 </body>
 </html>
