@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Hugo 0.127.0">
+
+  <title>Working with Private Repositories &middot; MoiSoto&#39;s Dev Corner</title>
+
+  <meta name="description" content="" />
+
+  
+  <meta itemprop="name" content="Working with Private Repositories">
+  <meta itemprop="description" content="
+If you are a Github user wanting to host privates repositories, you may wonder what’s the easier way to get them up and running. You may also have to work with different accounts, and soon become aware of how difficult this can become, specially if you normally use https for your repos.
+This article will show how to setup and use ssh to host private repositories on serveral accounts in a simple and practical way.">
+  <meta itemprop="datePublished" content="2024-06-22T10:21:04-04:00">
+  <meta itemprop="dateModified" content="2024-06-22T10:21:04-04:00">
+  <meta itemprop="wordCount" content="75">
+  <meta itemprop="keywords" content="Git,Github,Gists">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Working with Private Repositories">
+  <meta name="twitter:description" content="
+If you are a Github user wanting to host privates repositories, you may wonder what’s the easier way to get them up and running. You may also have to work with different accounts, and soon become aware of how difficult this can become, specially if you normally use https for your repos.
+This article will show how to setup and use ssh to host private repositories on serveral accounts in a simple and practical way.">
+
+
+<meta property="og:url" content="http://moisoto.github.io/post/git-private-repos/">
+  <meta property="og:site_name" content="MoiSoto&#39;s Dev Corner">
+  <meta property="og:title" content="Working with Private Repositories">
+  <meta property="og:description" content="
+If you are a Github user wanting to host privates repositories, you may wonder what’s the easier way to get them up and running. You may also have to work with different accounts, and soon become aware of how difficult this can become, specially if you normally use https for your repos.
+This article will show how to setup and use ssh to host private repositories on serveral accounts in a simple and practical way.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2024-06-22T10:21:04-04:00">
+    <meta property="article:modified_time" content="2024-06-22T10:21:04-04:00">
+    <meta property="article:tag" content="Git">
+    <meta property="article:tag" content="Github">
+    <meta property="article:tag" content="Gists">
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type":"Person",
+      "@id": "http://moisoto.github.io/#author",
+      "name": "Moises Soto",
+      "image": {
+        "@type":"ImageObject",
+        
+        "url": "http://moisoto.github.io/images/profilepic.jpg"
+        
+      },
+      "description": "Hosted by GitHub"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "http://moisoto.github.io/#website",
+      "url": "http://moisoto.github.io/",
+      "name": "MoiSoto's Dev Corner",
+      "description": "Hosted by GitHub",
+      "publisher": {
+        "@id": "http://moisoto.github.io/#author"
+      },
+      "inLanguage": "en-us"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "http://moisoto.github.io/post/git-private-repos/#webpage",
+      "url": "http://moisoto.github.io/post/git-private-repos/",
+      "name": "Working with Private Repositories",
+      "isPartOf": {
+        "@id": "http://moisoto.github.io/#website"
+      },
+      "about": {
+         "@id": "http://moisoto.github.io/#author"
+      },
+      "datePublished": "2024-06-22T10:21:04-04:00",
+      "dateModified": "2024-06-22T10:21:04-04:00",
+      "description": "\u003cp\u003e\u003cimg src=\"/images/GitHub-Mark-120px-plus.png#floatleft\" alt=\"GitHub-Octocat\"\u003e\u003c/p\u003e\n\u003cp\u003eIf you are a Github user wanting to host privates repositories, you may wonder what\u0026rsquo;s the easier way to get them up and running.\nYou may also have to work with different accounts, and soon become aware of how difficult this can become, specially if you normally use https for your repos.\u003c/p\u003e\n\u003cp\u003eThis article will show how to setup and use ssh to host private repositories on serveral accounts in a simple and practical way.\u003c/p\u003e",
+      "inLanguage": "en-us",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "http://moisoto.github.io/post/git-private-repos/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "isPartOf": {
+        "@id": "http://moisoto.github.io/post/git-private-repos/#webpage"
+      },
+      "mainEntityOfPage": {
+        "@id": "http://moisoto.github.io/post/git-private-repos/#webpage"
+      },
+      "headline": "Working with Private Repositories",
+      "datePublished": "2024-06-22T10:21:04-04:00",
+      "dateModified": "2024-06-22T10:21:04-04:00",
+      "publisher": {
+        "@id": "http://moisoto.github.io/#author"
+      },
+      "keywords": [
+        "Git",
+        "Github",
+        "Gists"
+      ],
+      "articleSection": [
+      ],
+      "inLanguage": "en-us",
+      "author": {
+        "@type": "Person",
+        "name":  null 
+      },
+      "potentialAction": [
+        {
+          "@type": "CommentAction",
+          "name": "Comment",
+          "target": [
+            "http://moisoto.github.io/post/git-private-repos/#comments"
+          ]
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/print.css"
+        media="print">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/poole.css">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/hyde.css">
+
+  
+
+    
+
+  
+
+
+  <link type="text/css" rel="stylesheet" href="/css/blog.css">
+
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+        crossorigin="anonymous" />
+
+  <link rel="apple-touch-icon-precomposed"
+        sizes="144x144"
+        href="/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  </head>
+<body>
+  <aside class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      
+        
+        <div class="author-image">
+          <a href="http://moisoto.github.io/">
+            <img src="/images/profilepic.jpg" class="img-circle img-headshot center" alt="Profile Picture">
+          </a>
+        </div>
+        
+      
+
+      <h1>MoiSoto&#39;s Dev Corner</h1>
+
+      
+      <p class="lead">Hosted by GitHub</p>
+      
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li>
+          <a href="http://moisoto.github.io/">Home</a>
+        </li>
+        <li>
+          <a href="/post/">Posts</a>
+        </li><li>
+          <a href="/about/">About</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="social-icons">
+      
+      <a href="https://github.com/moisoto" rel="me" title="GitHub" target="_blank">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+      
+      <a href="https://twitter.com/moisoto" rel="me" title="Twitter" target="_blank">
+        <i class="fab fa-twitter" aria-hidden="true"></i>
+      </a>
+      
+    </section>
+  </div>
+</aside>
+
+
+  <main class="content container">
+  <div class="post">
+  <h1 class="title">Working with Private Repositories</h1>
+  
+
+  <div class="post-date">
+    <time datetime="2024-06-22T10:21:04-0400">Jun 22, 2024</time> <span class="readtime">&middot; 1 min read</span>
+  </div>
+
+  <div>
+  <p><img src="/images/GitHub-Mark-120px-plus.png#floatleft" alt="GitHub-Octocat"></p>
+<p>If you are a Github user wanting to host privates repositories, you may wonder what&rsquo;s the easier way to get them up and running.
+You may also have to work with different accounts, and soon become aware of how difficult this can become, specially if you normally use https for your repos.</p>
+<p>This article will show how to setup and use ssh to host private repositories on serveral accounts in a simple and practical way.</p>
+<script src="https://gist.github.com/moisoto/6f67cd7357ea1de4f685538a3e7b6645.js"></script>
+  </div>
+
+  
+<div>
+  <ul class="tags">
+  <li>
+    <a href="http://moisoto.github.io/tags/git/" class="tag-link">Git</a>
+  </li>
+  
+  <li>
+    <a href="http://moisoto.github.io/tags/github/" class="tag-link">Github</a>
+  </li>
+  
+  <li>
+    <a href="http://moisoto.github.io/tags/gists/" class="tag-link">Gists</a>
+  </li>
+  </ul>
+</div>
+
+
+
+  <div class="share-buttons">
+  <a class="twitter-share-button"
+     href="#"
+     title="Share on Twitter"
+     data-url="http://moisoto.github.io/post/git-private-repos/"
+     data-text="Working with Private Repositories"><i class="fab fa-twitter"></i></a>
+
+  <a class="linkedin-share-button"
+     href="#"
+     title="Share on LinkedIn"
+     data-url="http://moisoto.github.io/post/git-private-repos/"
+     data-text="Working with Private Repositories"><i class="fab fa-linkedin-in"></i></a>
+
+  <a class="facebook-share-button"
+     href="#"
+     title="Share on Facebook"
+     data-url="http://moisoto.github.io/post/git-private-repos/"
+     data-text="Working with Private Repositories"><i class="fab fa-facebook"></i></a>
+
+  <a class="telegram-share-button"
+     href="#"
+     title="Share on Telegram"
+     data-url="http://moisoto.github.io/post/git-private-repos/"
+     data-text="Working with Private Repositories"><i class="fab fa-telegram"></i></a>
+
+  <a class="pinterest-share-button"
+     href="#"
+     title="Share on Pinterest"
+     data-url="http://moisoto.github.io/post/git-private-repos/"
+     data-text="Working with Private Repositories"><i class="fab fa-pinterest"></i></a>
+</div>
+
+
+  
+</div>
+  </main>
+
+  <footer>
+  <div>
+    <p>
+      &copy; Moises Soto 2024
+
+      &middot; <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>
+
+      
+    </p>
+  </div>
+</footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+          integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0="
+          crossorigin="anonymous"></script>
+
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/soho.js"></script>
+
+  <script src="/js/blog.js"></script>
+
+  
+
+
+    
+      
+  
+
+
+    
+</body>
+</html>
