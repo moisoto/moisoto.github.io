@@ -13,7 +13,7 @@
       <link>http://moisoto.github.io/post/git-private-repos/</link>
       <pubDate>Sat, 22 Jun 2024 10:21:04 -0400</pubDate>
       <guid>http://moisoto.github.io/post/git-private-repos/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.github.io/images/GitHub-Mark-120px-plus.png#floatleft&#34; alt=&#34;GitHub-Octocat&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you are a Github user wanting to host privates repositories, you may wonder what&amp;rsquo;s the easier way to get them up and running.&#xA;You may also have to work with different accounts, and soon become aware of how difficult this can become, specially if you normally use https for your repos.&lt;/p&gt;&#xA;&lt;p&gt;This article will show how to setup and use ssh to host private repositories on serveral accounts in a simple and practical way.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.github.io/images/GitHub-Mark-120px-plus.png#floatleft&#34; alt=&#34;GitHub-Octocat&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you are a Github user wanting to host privates repositories, you may wonder what&amp;rsquo;s the easier way to get them up and running.&#xA;You may also have to work with different accounts, and soon become aware of how cumbersome this can become, specially if you normally use https for your repos.&lt;/p&gt;&#xA;&lt;p&gt;This article will show how to setup and use ssh to host private repositories on serveral accounts in a simple and practical way.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Git Simplified</title>
