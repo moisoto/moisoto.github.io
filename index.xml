@@ -50,5 +50,12 @@
       <guid>http://moisoto.github.io/post/welcome-to-my-github-page/</guid>
       <description>&lt;h1 id=&#34;today-i-found-out-about-github-pages-so-why-not-make-one&#34;&gt;Today I found out about GitHub Pages! So, why not make one?&lt;/h1&gt;&#xA;&lt;h4 id=&#34;click-below-and-check-my-welcome-post&#34;&gt;Click below and check my Welcome Post&amp;hellip;&lt;/h4&gt;</description>
     </item>
+    <item>
+      <title>About</title>
+      <link>http://moisoto.github.io/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://moisoto.github.io/about/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.</description>
+    </item>
   </channel>
 </rss>
