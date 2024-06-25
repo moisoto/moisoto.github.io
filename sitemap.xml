@@ -2,68 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://moisoto.github.io/tags/gists/</loc>
+    <loc>http://moisoto.dev/tags/bug/</loc>
+    <lastmod>2024-06-25T10:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.dev/tags/fix/</loc>
+    <lastmod>2024-06-25T10:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.dev/post/fix-icloud-stall/</loc>
+    <lastmod>2024-06-25T10:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.dev/tags/icloud/</loc>
+    <lastmod>2024-06-25T10:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.dev/tags/mac/</loc>
+    <lastmod>2024-06-25T10:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.dev/tags/macos/</loc>
+    <lastmod>2024-06-25T10:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.dev/</loc>
+    <lastmod>2024-06-25T10:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.dev/post/</loc>
+    <lastmod>2024-06-25T10:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.dev/tags/</loc>
+    <lastmod>2024-06-25T10:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.dev/tags/gists/</loc>
     <lastmod>2024-06-22T10:21:04-04:00</lastmod>
   </url><url>
-    <loc>http://moisoto.github.io/tags/git/</loc>
+    <loc>http://moisoto.dev/tags/git/</loc>
     <lastmod>2024-06-22T10:21:04-04:00</lastmod>
   </url><url>
-    <loc>http://moisoto.github.io/tags/github/</loc>
+    <loc>http://moisoto.dev/tags/github/</loc>
     <lastmod>2024-06-22T10:21:04-04:00</lastmod>
   </url><url>
-    <loc>http://moisoto.github.io/</loc>
+    <loc>http://moisoto.dev/post/git-private-repos/</loc>
     <lastmod>2024-06-22T10:21:04-04:00</lastmod>
   </url><url>
-    <loc>http://moisoto.github.io/post/</loc>
-    <lastmod>2024-06-22T10:21:04-04:00</lastmod>
-  </url><url>
-    <loc>http://moisoto.github.io/tags/</loc>
-    <lastmod>2024-06-22T10:21:04-04:00</lastmod>
-  </url><url>
-    <loc>http://moisoto.github.io/post/git-private-repos/</loc>
-    <lastmod>2024-06-22T10:21:04-04:00</lastmod>
-  </url><url>
-    <loc>http://moisoto.github.io/post/git-simplified/</loc>
+    <loc>http://moisoto.dev/post/git-simplified/</loc>
     <lastmod>2021-07-06T17:21:04-04:00</lastmod>
   </url><url>
-    <loc>http://moisoto.github.io/tags/notes/</loc>
+    <loc>http://moisoto.dev/tags/notes/</loc>
     <lastmod>2021-07-06T17:21:04-04:00</lastmod>
   </url><url>
-    <loc>http://moisoto.github.io/tags/oh-my-zsh/</loc>
+    <loc>http://moisoto.dev/tags/oh-my-zsh/</loc>
     <lastmod>2021-03-17T11:01:40-04:00</lastmod>
   </url><url>
-    <loc>http://moisoto.github.io/tags/powerlevel10k/</loc>
+    <loc>http://moisoto.dev/tags/powerlevel10k/</loc>
     <lastmod>2021-03-17T11:01:40-04:00</lastmod>
   </url><url>
-    <loc>http://moisoto.github.io/tags/terminal/</loc>
+    <loc>http://moisoto.dev/tags/terminal/</loc>
     <lastmod>2021-03-17T11:01:40-04:00</lastmod>
   </url><url>
-    <loc>http://moisoto.github.io/post/unleashing-zsh-tips-and-bits/</loc>
+    <loc>http://moisoto.dev/post/unleashing-zsh-tips-and-bits/</loc>
     <lastmod>2021-03-17T11:01:40-04:00</lastmod>
   </url><url>
-    <loc>http://moisoto.github.io/tags/zsh/</loc>
+    <loc>http://moisoto.dev/tags/zsh/</loc>
     <lastmod>2021-03-17T11:01:40-04:00</lastmod>
   </url><url>
-    <loc>http://moisoto.github.io/tags/hugo-websites/</loc>
+    <loc>http://moisoto.dev/tags/hugo-websites/</loc>
     <lastmod>2021-03-11T22:23:18-04:00</lastmod>
   </url><url>
-    <loc>http://moisoto.github.io/post/this-hugo-website-is-public/</loc>
+    <loc>http://moisoto.dev/post/this-hugo-website-is-public/</loc>
     <lastmod>2021-03-11T22:23:18-04:00</lastmod>
   </url><url>
-    <loc>http://moisoto.github.io/tags/swift/</loc>
+    <loc>http://moisoto.dev/tags/swift/</loc>
     <lastmod>2021-03-11T10:52:29-04:00</lastmod>
   </url><url>
-    <loc>http://moisoto.github.io/post/swift-programming-notes/</loc>
+    <loc>http://moisoto.dev/post/swift-programming-notes/</loc>
     <lastmod>2021-03-11T10:52:29-04:00</lastmod>
   </url><url>
-    <loc>http://moisoto.github.io/post/welcome-to-my-github-page/</loc>
+    <loc>http://moisoto.dev/post/welcome-to-my-github-page/</loc>
     <lastmod>2021-03-10T22:18:04-04:00</lastmod>
   </url><url>
-    <loc>http://moisoto.github.io/about/</loc>
+    <loc>http://moisoto.dev/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://moisoto.github.io/categories/</loc>
+    <loc>http://moisoto.dev/categories/</loc>
   </url><url>
-    <loc>http://moisoto.github.io/series/</loc>
+    <loc>http://moisoto.dev/series/</loc>
   </url>
 </urlset>

@@ -2,80 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on MoiSoto&#39;s Dev Corner</title>
-    <link>http://moisoto.github.io/tags/</link>
+    <link>http://moisoto.dev/tags/</link>
     <description>Recent content in Tags on MoiSoto&#39;s Dev Corner</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Jun 2024 10:21:04 -0400</lastBuildDate>
-    <atom:link href="http://moisoto.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jun 2024 10:00:00 -0400</lastBuildDate>
+    <atom:link href="http://moisoto.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bug</title>
+      <link>http://moisoto.dev/tags/bug/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://moisoto.dev/tags/bug/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fix</title>
+      <link>http://moisoto.dev/tags/fix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://moisoto.dev/tags/fix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ICloud</title>
+      <link>http://moisoto.dev/tags/icloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://moisoto.dev/tags/icloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mac</title>
+      <link>http://moisoto.dev/tags/mac/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://moisoto.dev/tags/mac/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MacOS</title>
+      <link>http://moisoto.dev/tags/macos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://moisoto.dev/tags/macos/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Gists</title>
-      <link>http://moisoto.github.io/tags/gists/</link>
+      <link>http://moisoto.dev/tags/gists/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://moisoto.github.io/tags/gists/</guid>
+      <guid>http://moisoto.dev/tags/gists/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>http://moisoto.github.io/tags/git/</link>
+      <link>http://moisoto.dev/tags/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://moisoto.github.io/tags/git/</guid>
+      <guid>http://moisoto.dev/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Github</title>
-      <link>http://moisoto.github.io/tags/github/</link>
+      <link>http://moisoto.dev/tags/github/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://moisoto.github.io/tags/github/</guid>
+      <guid>http://moisoto.dev/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>Notes</title>
-      <link>http://moisoto.github.io/tags/notes/</link>
+      <link>http://moisoto.dev/tags/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://moisoto.github.io/tags/notes/</guid>
+      <guid>http://moisoto.dev/tags/notes/</guid>
       <description></description>
     </item>
     <item>
       <title>Oh-My-Zsh</title>
-      <link>http://moisoto.github.io/tags/oh-my-zsh/</link>
+      <link>http://moisoto.dev/tags/oh-my-zsh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://moisoto.github.io/tags/oh-my-zsh/</guid>
+      <guid>http://moisoto.dev/tags/oh-my-zsh/</guid>
       <description></description>
     </item>
     <item>
       <title>Powerlevel10k</title>
-      <link>http://moisoto.github.io/tags/powerlevel10k/</link>
+      <link>http://moisoto.dev/tags/powerlevel10k/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://moisoto.github.io/tags/powerlevel10k/</guid>
+      <guid>http://moisoto.dev/tags/powerlevel10k/</guid>
       <description></description>
     </item>
     <item>
       <title>Terminal</title>
-      <link>http://moisoto.github.io/tags/terminal/</link>
+      <link>http://moisoto.dev/tags/terminal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://moisoto.github.io/tags/terminal/</guid>
+      <guid>http://moisoto.dev/tags/terminal/</guid>
       <description></description>
     </item>
     <item>
       <title>Zsh</title>
-      <link>http://moisoto.github.io/tags/zsh/</link>
+      <link>http://moisoto.dev/tags/zsh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://moisoto.github.io/tags/zsh/</guid>
+      <guid>http://moisoto.dev/tags/zsh/</guid>
       <description></description>
     </item>
     <item>
       <title>HUGO Websites</title>
-      <link>http://moisoto.github.io/tags/hugo-websites/</link>
+      <link>http://moisoto.dev/tags/hugo-websites/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://moisoto.github.io/tags/hugo-websites/</guid>
+      <guid>http://moisoto.dev/tags/hugo-websites/</guid>
       <description></description>
     </item>
     <item>
       <title>Swift</title>
-      <link>http://moisoto.github.io/tags/swift/</link>
+      <link>http://moisoto.dev/tags/swift/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://moisoto.github.io/tags/swift/</guid>
+      <guid>http://moisoto.dev/tags/swift/</guid>
       <description></description>
     </item>
   </channel>

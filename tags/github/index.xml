@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Github on MoiSoto&#39;s Dev Corner</title>
-    <link>http://moisoto.github.io/tags/github/</link>
+    <link>http://moisoto.dev/tags/github/</link>
     <description>Recent content in Github on MoiSoto&#39;s Dev Corner</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Jun 2024 10:21:04 -0400</lastBuildDate>
-    <atom:link href="http://moisoto.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://moisoto.dev/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Working with Private Repositories</title>
-      <link>http://moisoto.github.io/post/git-private-repos/</link>
+      <link>http://moisoto.dev/post/git-private-repos/</link>
       <pubDate>Sat, 22 Jun 2024 10:21:04 -0400</pubDate>
-      <guid>http://moisoto.github.io/post/git-private-repos/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.github.io/images/GitHub-Mark-120px-plus.png#floatleft&#34; alt=&#34;GitHub-Octocat&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you are a Github user wanting to host privates repositories, you may wonder what&amp;rsquo;s the easier way to get them up and running.&#xA;You may also have to work with different accounts, and soon become aware of how cumbersome this can become, specially if you normally use https for your repos.&lt;/p&gt;&#xA;&lt;p&gt;This article will show how to setup and use ssh to host private repositories on serveral accounts in a simple and practical way.&lt;/p&gt;</description>
+      <guid>http://moisoto.dev/post/git-private-repos/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/GitHub-Mark-120px-plus.png#floatleft&#34; alt=&#34;GitHub-Octocat&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you are a Github user wanting to host privates repositories, you may wonder what&amp;rsquo;s the easier way to get them up and running.&#xA;You may also have to work with different accounts, and soon become aware of how cumbersome this can become, specially if you normally use https for your repos.&lt;/p&gt;&#xA;&lt;p&gt;This article will show how to setup and use ssh to host private repositories on serveral accounts in a simple and practical way.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Git Simplified</title>
-      <link>http://moisoto.github.io/post/git-simplified/</link>
+      <link>http://moisoto.dev/post/git-simplified/</link>
       <pubDate>Tue, 06 Jul 2021 17:21:04 -0400</pubDate>
-      <guid>http://moisoto.github.io/post/git-simplified/</guid>
+      <guid>http://moisoto.dev/post/git-simplified/</guid>
       <description>We are back after a quite long hiatus, and this time will be posting about Git.</description>
     </item>
     <item>
       <title>This Hugo Website Is Public!</title>
-      <link>http://moisoto.github.io/post/this-hugo-website-is-public/</link>
+      <link>http://moisoto.dev/post/this-hugo-website-is-public/</link>
       <pubDate>Thu, 11 Mar 2021 22:23:18 -0400</pubDate>
-      <guid>http://moisoto.github.io/post/this-hugo-website-is-public/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.github.io/images/GitHub-Mark-120px-plus.png#floatleft&#34; alt=&#34;GitHub-Octocat&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The GitHub repository used for to generate this website is public. And the README.md file contains lots of info on how it was created.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;please-check-it-out-at&#34;&gt;Please check it out at:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/moisoto/github-page.dev&#34;&gt;https://github.com/moisoto/github-page.dev&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://moisoto.dev/post/this-hugo-website-is-public/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/GitHub-Mark-120px-plus.png#floatleft&#34; alt=&#34;GitHub-Octocat&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The GitHub repository used for to generate this website is public. And the README.md file contains lots of info on how it was created.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;please-check-it-out-at&#34;&gt;Please check it out at:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/moisoto/github-page.dev&#34;&gt;https://github.com/moisoto/github-page.dev&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Swift Programming Notes</title>
-      <link>http://moisoto.github.io/post/swift-programming-notes/</link>
+      <link>http://moisoto.dev/post/swift-programming-notes/</link>
       <pubDate>Thu, 11 Mar 2021 10:52:29 -0400</pubDate>
-      <guid>http://moisoto.github.io/post/swift-programming-notes/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.github.io/images/swift_logo_plain.png#floatleft&#34; alt=&#34;Swift-Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I decided to switch from Objective-C to Swift not long ago, and recently updated some notes for Swift 5.4 to include some new language features and share them on a gist on my main GitHub account.&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xA;&lt;p&gt;&#xA;&lt;h3 id=&#34;you-can-check-it-here&#34;&gt;You can check it here:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gist.github.com/moisoto/1d222dda72e8816287d5ac792f5a6248&#34;&gt;Swift Playground Examples for Beginners · GitHub&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
+      <guid>http://moisoto.dev/post/swift-programming-notes/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/swift_logo_plain.png#floatleft&#34; alt=&#34;Swift-Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I decided to switch from Objective-C to Swift not long ago, and recently updated some notes for Swift 5.4 to include some new language features and share them on a gist on my main GitHub account.&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xA;&lt;p&gt;&#xA;&lt;h3 id=&#34;you-can-check-it-here&#34;&gt;You can check it here:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gist.github.com/moisoto/1d222dda72e8816287d5ac792f5a6248&#34;&gt;Swift Playground Examples for Beginners · GitHub&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
   </channel>
 </rss>

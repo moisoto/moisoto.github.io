@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Hugo 0.127.0">
+
+  <title>Fix Stalled iCloud Sync &middot; MoiSoto&#39;s Dev Corner</title>
+
+  <meta name="description" content="" />
+
+  
+  <meta itemprop="name" content="Fix Stalled iCloud Sync">
+  <meta itemprop="description" content="
+Is your iCloud Drive Synchronization stalled and it always shows files pending upload or download? Follow these instructions to get the problem solved.">
+  <meta itemprop="datePublished" content="2024-06-25T10:00:00-04:00">
+  <meta itemprop="dateModified" content="2024-06-25T10:00:00-04:00">
+  <meta itemprop="wordCount" content="266">
+  <meta itemprop="keywords" content="Mac,MacOS,ICloud,Bug,Fix">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Fix Stalled iCloud Sync">
+  <meta name="twitter:description" content="
+Is your iCloud Drive Synchronization stalled and it always shows files pending upload or download? Follow these instructions to get the problem solved.">
+
+
+<meta property="og:url" content="http://moisoto.dev/post/fix-icloud-stall/">
+  <meta property="og:site_name" content="MoiSoto&#39;s Dev Corner">
+  <meta property="og:title" content="Fix Stalled iCloud Sync">
+  <meta property="og:description" content="
+Is your iCloud Drive Synchronization stalled and it always shows files pending upload or download? Follow these instructions to get the problem solved.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2024-06-25T10:00:00-04:00">
+    <meta property="article:modified_time" content="2024-06-25T10:00:00-04:00">
+    <meta property="article:tag" content="Mac">
+    <meta property="article:tag" content="MacOS">
+    <meta property="article:tag" content="ICloud">
+    <meta property="article:tag" content="Bug">
+    <meta property="article:tag" content="Fix">
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type":"Person",
+      "@id": "http://moisoto.dev/#author",
+      "name": "Moises Soto",
+      "image": {
+        "@type":"ImageObject",
+        
+        "url": "http://moisoto.dev/images/profilepic.jpg"
+        
+      },
+      "description": "Hosted by GitHub"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "http://moisoto.dev/#website",
+      "url": "http://moisoto.dev/",
+      "name": "MoiSoto's Dev Corner",
+      "description": "Hosted by GitHub",
+      "publisher": {
+        "@id": "http://moisoto.dev/#author"
+      },
+      "inLanguage": "en-us"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "http://moisoto.dev/post/fix-icloud-stall/#webpage",
+      "url": "http://moisoto.dev/post/fix-icloud-stall/",
+      "name": "Fix Stalled iCloud Sync",
+      "isPartOf": {
+        "@id": "http://moisoto.dev/#website"
+      },
+      "about": {
+         "@id": "http://moisoto.dev/#author"
+      },
+      "datePublished": "2024-06-25T10:00:00-04:00",
+      "dateModified": "2024-06-25T10:00:00-04:00",
+      "description": "\u003cp\u003e\u003cimg src=\"/images/hero_icloud_logo.png#floatleft\" alt=\"iCloud-Logo\"\u003e\u003c/p\u003e\n\u003cp\u003eIs your iCloud Drive Synchronization stalled and it always shows files pending upload or download? Follow these instructions to get the problem solved.\u003c/p\u003e",
+      "inLanguage": "en-us",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "http://moisoto.dev/post/fix-icloud-stall/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "isPartOf": {
+        "@id": "http://moisoto.dev/post/fix-icloud-stall/#webpage"
+      },
+      "mainEntityOfPage": {
+        "@id": "http://moisoto.dev/post/fix-icloud-stall/#webpage"
+      },
+      "headline": "Fix Stalled iCloud Sync",
+      "datePublished": "2024-06-25T10:00:00-04:00",
+      "dateModified": "2024-06-25T10:00:00-04:00",
+      "publisher": {
+        "@id": "http://moisoto.dev/#author"
+      },
+      "keywords": [
+        "Mac",
+        "MacOS",
+        "ICloud",
+        "Bug",
+        "Fix"
+      ],
+      "articleSection": [
+      ],
+      "inLanguage": "en-us",
+      "author": {
+        "@type": "Person",
+        "name":  null 
+      },
+      "potentialAction": [
+        {
+          "@type": "CommentAction",
+          "name": "Comment",
+          "target": [
+            "http://moisoto.dev/post/fix-icloud-stall/#comments"
+          ]
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/print.css"
+        media="print">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/poole.css">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/hyde.css">
+
+  
+
+    
+
+  
+
+
+  <link type="text/css" rel="stylesheet" href="/css/blog.css">
+
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+        crossorigin="anonymous" />
+
+  <link rel="apple-touch-icon-precomposed"
+        sizes="144x144"
+        href="/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  </head>
+<body>
+  <aside class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      
+        
+        <div class="author-image">
+          <a href="http://moisoto.dev/">
+            <img src="/images/profilepic.jpg" class="img-circle img-headshot center" alt="Profile Picture">
+          </a>
+        </div>
+        
+      
+
+      <h1>MoiSoto&#39;s Dev Corner</h1>
+
+      
+      <p class="lead">Hosted by GitHub</p>
+      
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li>
+          <a href="http://moisoto.dev/">Home</a>
+        </li>
+        <li>
+          <a href="/post/">Posts</a>
+        </li><li>
+          <a href="/about/">About</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="social-icons">
+      
+      <a href="https://github.com/moisoto" rel="me" title="GitHub" target="_blank">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+      
+      <a href="https://twitter.com/moisoto" rel="me" title="Twitter" target="_blank">
+        <i class="fab fa-twitter" aria-hidden="true"></i>
+      </a>
+      
+    </section>
+  </div>
+</aside>
+
+
+  <main class="content container">
+  <div class="post">
+  <h1 class="title">Fix Stalled iCloud Sync</h1>
+  
+
+  <div class="post-date">
+    <time datetime="2024-06-25T10:00:00-0400">Jun 25, 2024</time> <span class="readtime">&middot; 2 min read</span>
+  </div>
+
+  <div>
+  <p><img src="/images/hero_icloud_logo.png#floatleft" alt="iCloud-Logo"></p>
+<p>Is your iCloud Drive Synchronization stalled and it always shows files pending upload or download? Follow these instructions to get the problem solved.</p>
+<h3 id="preparations">Preparations</h3>
+<p>It is likely that you have your Desktop &amp; Documents folders being Synced to iCloud. While the following process is simple and unlikely to produce any problem, it is important that you backup the files located on these folders.</p>
+<p>If you selected &ldquo;Optimize Mac Storage&rdquo; in your iCloud Settings, some of your files may not be local in your machine. By making a backup (copy) you will make sure all are downloaded to your mac (they&rsquo;ll be downloaded to your Documents/Desktop folder and then copied to the backup folder/disk). Be aware that sometimes your available storage may not be enought to do this. In that case you can move your files to an external disk/memory stick, instead of copying them.</p>
+<p>If you have enough space, just copy them into another local folder on your machine (don&rsquo;t move them as they&rsquo;ll be downloaded again and this may take a lot of time).</p>
+<h3 id="delete-clouddocs-folder">Delete CloudDocs Folder</h3>
+<p>Open Finder and Press SHIFT+CMD+G and type <code>~/Library/Application Support/</code>, this will take you to the Application Support Folder.
+You can then delete the folder name CloudDocs inside this folder.</p>
+<p>At this point you will see the iCloud entry in your Finder Sidebar to show the progress indicator, you can click on it and see that sync is working again. In case this doesn&rsquo;t happen you can force this by executing the following command on terminal:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>killall bird
+</span></span></code></pre></div><p>Now check your sync progress and it should be working again.</p>
+  </div>
+
+  
+<div>
+  <ul class="tags">
+  <li>
+    <a href="http://moisoto.dev/tags/mac/" class="tag-link">Mac</a>
+  </li>
+  
+  <li>
+    <a href="http://moisoto.dev/tags/macos/" class="tag-link">MacOS</a>
+  </li>
+  
+  <li>
+    <a href="http://moisoto.dev/tags/icloud/" class="tag-link">ICloud</a>
+  </li>
+  
+  <li>
+    <a href="http://moisoto.dev/tags/bug/" class="tag-link">Bug</a>
+  </li>
+  
+  <li>
+    <a href="http://moisoto.dev/tags/fix/" class="tag-link">Fix</a>
+  </li>
+  </ul>
+</div>
+
+
+
+  <div class="share-buttons">
+  <a class="twitter-share-button"
+     href="#"
+     title="Share on Twitter"
+     data-url="http://moisoto.dev/post/fix-icloud-stall/"
+     data-text="Fix Stalled iCloud Sync"><i class="fab fa-twitter"></i></a>
+
+  <a class="linkedin-share-button"
+     href="#"
+     title="Share on LinkedIn"
+     data-url="http://moisoto.dev/post/fix-icloud-stall/"
+     data-text="Fix Stalled iCloud Sync"><i class="fab fa-linkedin-in"></i></a>
+
+  <a class="facebook-share-button"
+     href="#"
+     title="Share on Facebook"
+     data-url="http://moisoto.dev/post/fix-icloud-stall/"
+     data-text="Fix Stalled iCloud Sync"><i class="fab fa-facebook"></i></a>
+
+  <a class="telegram-share-button"
+     href="#"
+     title="Share on Telegram"
+     data-url="http://moisoto.dev/post/fix-icloud-stall/"
+     data-text="Fix Stalled iCloud Sync"><i class="fab fa-telegram"></i></a>
+
+  <a class="pinterest-share-button"
+     href="#"
+     title="Share on Pinterest"
+     data-url="http://moisoto.dev/post/fix-icloud-stall/"
+     data-text="Fix Stalled iCloud Sync"><i class="fab fa-pinterest"></i></a>
+</div>
+
+
+  
+</div>
+  </main>
+
+  <footer>
+  <div>
+    <p>
+      &copy; Moises Soto 2024
+
+      &middot; <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>
+
+      
+    </p>
+  </div>
+</footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+          integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0="
+          crossorigin="anonymous"></script>
+
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/soho.js"></script>
+
+  <script src="/js/blog.js"></script>
+
+  
+
+
+    
+      
+  
+
+
+    
+</body>
+</html>
