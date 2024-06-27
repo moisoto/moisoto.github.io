@@ -6,8 +6,15 @@
     <description>Recent content in Posts on MoiSoto&#39;s Dev Corner</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Jun 2024 10:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jun 2024 10:00:00 -0400</lastBuildDate>
     <atom:link href="http://moisoto.dev/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting up your BlueSky Custom Domain</title>
+      <link>http://moisoto.dev/post/bluesky-custom-domain/</link>
+      <pubDate>Thu, 27 Jun 2024 10:00:00 -0400</pubDate>
+      <guid>http://moisoto.dev/post/bluesky-custom-domain/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/bluesky_logo_small.png#floatleft&#34; alt=&#34;BlueSky-Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you loved how Twitter felt at the start and are looking for nice alternative, you probably already tried &lt;a href=&#34;https://bsky.app&#34;&gt;BlueSky&lt;/a&gt;. If you haven&amp;rsquo;t this is the best time to do it. You don&amp;rsquo;t need invites anymore and everyone can join.&lt;/p&gt;&#xA;&lt;p&gt;This article will show you how to use one of the cooler features of this new platform: &lt;em&gt;Using your own domain as your user handle&lt;/em&gt;. This is very useful, specially if you have a brand account with a website and you want users to have confidence they are actually interacting with you.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Repository Spotlight: Git-Utils</title>
       <link>http://moisoto.dev/post/rs-git-utils/</link>
