@@ -2,19 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://moisoto.dev/tags/bug/</loc>
+    <loc>http://moisoto.dev/tags/bluesky/</loc>
     <lastmod>2024-06-27T10:00:00-04:00</lastmod>
   </url><url>
-    <loc>http://moisoto.dev/tags/fix/</loc>
-    <lastmod>2024-06-27T10:00:00-04:00</lastmod>
-  </url><url>
-    <loc>http://moisoto.dev/tags/icloud/</loc>
-    <lastmod>2024-06-27T10:00:00-04:00</lastmod>
-  </url><url>
-    <loc>http://moisoto.dev/tags/mac/</loc>
-    <lastmod>2024-06-27T10:00:00-04:00</lastmod>
-  </url><url>
-    <loc>http://moisoto.dev/tags/macos/</loc>
+    <loc>http://moisoto.dev/tags/how-to/</loc>
     <lastmod>2024-06-27T10:00:00-04:00</lastmod>
   </url><url>
     <loc>http://moisoto.dev/</loc>
@@ -29,16 +20,46 @@
     <loc>http://moisoto.dev/tags/</loc>
     <lastmod>2024-06-27T10:00:00-04:00</lastmod>
   </url><url>
+    <loc>http://moisoto.dev/tags/tips/</loc>
+    <lastmod>2024-06-27T10:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.dev/tags/tutorial/</loc>
+    <lastmod>2024-06-27T10:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.dev/tags/git/</loc>
+    <lastmod>2024-06-26T10:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.dev/tags/linux/</loc>
+    <lastmod>2024-06-26T10:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.dev/tags/macos/</loc>
+    <lastmod>2024-06-26T10:00:00-04:00</lastmod>
+  </url><url>
     <loc>http://moisoto.dev/post/rs-git-utils/</loc>
     <lastmod>2024-06-26T10:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.dev/tags/utilities/</loc>
+    <lastmod>2024-06-26T10:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.dev/tags/utils/</loc>
+    <lastmod>2024-06-26T10:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.dev/tags/bug/</loc>
+    <lastmod>2024-06-25T10:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.dev/tags/fix/</loc>
+    <lastmod>2024-06-25T10:00:00-04:00</lastmod>
   </url><url>
     <loc>http://moisoto.dev/post/fix-icloud-stall/</loc>
     <lastmod>2024-06-25T10:00:00-04:00</lastmod>
   </url><url>
-    <loc>http://moisoto.dev/tags/gists/</loc>
-    <lastmod>2024-06-22T10:21:04-04:00</lastmod>
+    <loc>http://moisoto.dev/tags/icloud/</loc>
+    <lastmod>2024-06-25T10:00:00-04:00</lastmod>
   </url><url>
-    <loc>http://moisoto.dev/tags/git/</loc>
+    <loc>http://moisoto.dev/tags/mac/</loc>
+    <lastmod>2024-06-25T10:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://moisoto.dev/tags/gists/</loc>
     <lastmod>2024-06-22T10:21:04-04:00</lastmod>
   </url><url>
     <loc>http://moisoto.dev/tags/github/</loc>
