@@ -9,17 +9,31 @@
     <lastBuildDate>Thu, 12 Dec 2024 11:00:00 -0400</lastBuildDate>
     <atom:link href="http://moisoto.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bluesky</title>
-      <link>http://moisoto.dev/tags/bluesky/</link>
-      <pubDate>Thu, 12 Dec 2024 11:00:00 -0400</pubDate>
-      <guid>http://moisoto.dev/tags/bluesky/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>How-To</title>
       <link>http://moisoto.dev/tags/how-to/</link>
       <pubDate>Thu, 12 Dec 2024 11:00:00 -0400</pubDate>
       <guid>http://moisoto.dev/tags/how-to/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>http://moisoto.dev/tags/linux/</link>
+      <pubDate>Thu, 12 Dec 2024 11:00:00 -0400</pubDate>
+      <guid>http://moisoto.dev/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MacOS</title>
+      <link>http://moisoto.dev/tags/macos/</link>
+      <pubDate>Thu, 12 Dec 2024 11:00:00 -0400</pubDate>
+      <guid>http://moisoto.dev/tags/macos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Terminal</title>
+      <link>http://moisoto.dev/tags/terminal/</link>
+      <pubDate>Thu, 12 Dec 2024 11:00:00 -0400</pubDate>
+      <guid>http://moisoto.dev/tags/terminal/</guid>
       <description></description>
     </item>
     <item>
@@ -30,9 +44,16 @@
       <description></description>
     </item>
     <item>
+      <title>Bluesky</title>
+      <link>http://moisoto.dev/tags/bluesky/</link>
+      <pubDate>Thu, 27 Jun 2024 10:00:00 -0400</pubDate>
+      <guid>http://moisoto.dev/tags/bluesky/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Tutorial</title>
       <link>http://moisoto.dev/tags/tutorial/</link>
-      <pubDate>Thu, 12 Dec 2024 11:00:00 -0400</pubDate>
+      <pubDate>Thu, 27 Jun 2024 10:00:00 -0400</pubDate>
       <guid>http://moisoto.dev/tags/tutorial/</guid>
       <description></description>
     </item>
@@ -41,20 +62,6 @@
       <link>http://moisoto.dev/tags/git/</link>
       <pubDate>Wed, 26 Jun 2024 10:00:00 -0400</pubDate>
       <guid>http://moisoto.dev/tags/git/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux</title>
-      <link>http://moisoto.dev/tags/linux/</link>
-      <pubDate>Wed, 26 Jun 2024 10:00:00 -0400</pubDate>
-      <guid>http://moisoto.dev/tags/linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>MacOS</title>
-      <link>http://moisoto.dev/tags/macos/</link>
-      <pubDate>Wed, 26 Jun 2024 10:00:00 -0400</pubDate>
-      <guid>http://moisoto.dev/tags/macos/</guid>
       <description></description>
     </item>
     <item>
@@ -132,13 +139,6 @@
       <link>http://moisoto.dev/tags/powerlevel10k/</link>
       <pubDate>Wed, 17 Mar 2021 11:01:40 -0400</pubDate>
       <guid>http://moisoto.dev/tags/powerlevel10k/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Terminal</title>
-      <link>http://moisoto.dev/tags/terminal/</link>
-      <pubDate>Wed, 17 Mar 2021 11:01:40 -0400</pubDate>
-      <guid>http://moisoto.dev/tags/terminal/</guid>
       <description></description>
     </item>
     <item>
