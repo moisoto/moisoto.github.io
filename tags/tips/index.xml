@@ -6,8 +6,15 @@
     <description>Recent content in Tips on MoiSoto&#39;s Dev Corner</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Jun 2024 10:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 12 Dec 2024 11:00:00 -0400</lastBuildDate>
     <atom:link href="http://moisoto.dev/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Verifying a DNS Record</title>
+      <link>http://moisoto.dev/post/dns-record/</link>
+      <pubDate>Thu, 12 Dec 2024 11:00:00 -0400</pubDate>
+      <guid>http://moisoto.dev/post/dns-record/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/DNS-logo-small.tiff#floatleft&#34; alt=&#34;DNS-Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I was recently asked why sometimes when settings TXT records on your domain DNS configuration it&#xA;took a while for the change for it to be seen by other servers. The reasons are various, mainly&#xA;DNS propagation delays. Here I&amp;rsquo;ll show you how to verify the change has been applied.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Setting up your BlueSky Custom Domain Handle</title>
       <link>http://moisoto.dev/post/bluesky-custom-domain/</link>
