@@ -1,96 +1,108 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>MoiSoto&#39;s Dev Corner</title>
-    <link>http://moisoto.dev/</link>
-    <description>Recent content on MoiSoto&#39;s Dev Corner</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jan 2025 10:00:00 -0400</lastBuildDate>
-    <atom:link href="http://moisoto.dev/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Generative AI Resources</title>
-      <link>http://moisoto.dev/post/ai-resources/</link>
-      <pubDate>Tue, 21 Jan 2025 10:00:00 -0400</pubDate>
-      <guid>http://moisoto.dev/post/ai-resources/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/genAI.webp&#34; alt=&#34;AI-Resources&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Recently I&amp;rsquo;ve been working on some projects related to Generative AI models. The more I dive into this, the more I realize the vast amount of resources available.&lt;/p&gt;&#xA;&lt;p&gt;This article will host a Gist that will be updated (hopefully frequently) with the most interesting resources I come across.&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xA;&lt;p&gt;&#xA;&lt;h3 id=&#34;click-here-if-you-want-to-star-or-follow-the-gist&#34;&gt;Click here if you want to Star or Follow the Gist:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gist.github.com/moisoto/b37e6bbe565a0a89133a62d5cca296c7&#34;&gt;Generative AI Resources · GitHub&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;or check below for the embedded version&amp;hellip;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>Verifying a DNS Record</title>
-      <link>http://moisoto.dev/post/dns-record/</link>
-      <pubDate>Thu, 12 Dec 2024 11:00:00 -0400</pubDate>
-      <guid>http://moisoto.dev/post/dns-record/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/DNS-logo-small.tiff#floatleft&#34; alt=&#34;DNS-Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I was recently asked why sometimes when settings TXT records on your domain DNS configuration it&#xA;took a while for the change for it to be seen by other servers. The reasons are various, mainly&#xA;DNS propagation delays. Here I&amp;rsquo;ll show you how to verify the change has been applied.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Setting up your BlueSky Custom Domain Handle</title>
-      <link>http://moisoto.dev/post/bluesky-custom-domain/</link>
-      <pubDate>Thu, 27 Jun 2024 10:00:00 -0400</pubDate>
-      <guid>http://moisoto.dev/post/bluesky-custom-domain/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/bluesky_logo_small.png#floatleft&#34; alt=&#34;BlueSky-Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you love how Twitter felt at the start and are looking for a nice alternative, you probably already tried &lt;a href=&#34;https://bsky.app&#34;&gt;BlueSky&lt;/a&gt;. If you haven&amp;rsquo;t, this is the best time to do it. You don&amp;rsquo;t need invites anymore and everyone can join.&lt;/p&gt;&#xA;&lt;p&gt;This article will show you how to use one of the cooler features of this new platform: &lt;em&gt;Using your own domain as your user handle&lt;/em&gt;. This is very useful, specially if you have a brand account with a website and you want users to have confidence they are actually interacting with you.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Repository Spotlight: Git-Utils</title>
-      <link>http://moisoto.dev/post/rs-git-utils/</link>
-      <pubDate>Wed, 26 Jun 2024 10:00:00 -0400</pubDate>
-      <guid>http://moisoto.dev/post/rs-git-utils/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/git_logo_small.png#floatleft&#34; alt=&#34;Git-Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Today we introduce a new series for this blog that we are calling &lt;em&gt;Repository Spotlight&lt;/em&gt;.&#xA;Here you&amp;rsquo;ll find some repositories I published and others I find useful and want to share.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/moisoto/git-utils/&#34;&gt;Git-Utils&lt;/a&gt; is a simple repository where I&amp;rsquo;ll be uploading scripts I use to simplify command line tasks on my git repositories.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Fix Stalled iCloud Sync</title>
-      <link>http://moisoto.dev/post/fix-icloud-stall/</link>
-      <pubDate>Tue, 25 Jun 2024 10:00:00 -0400</pubDate>
-      <guid>http://moisoto.dev/post/fix-icloud-stall/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/hero_icloud_logo.png#floatleft&#34; alt=&#34;iCloud-Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Is your iCloud Drive Synchronization stalled and it always shows files pending upload or download? Follow these instructions to get the problem solved.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Working with Private Repositories</title>
-      <link>http://moisoto.dev/post/git-private-repos/</link>
-      <pubDate>Sat, 22 Jun 2024 10:21:04 -0400</pubDate>
-      <guid>http://moisoto.dev/post/git-private-repos/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/GitHub-Mark-120px-plus.png#floatleft&#34; alt=&#34;GitHub-Octocat&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you are a Github user wanting to host privates repositories, you may wonder what&amp;rsquo;s the easier way to get them up and running.&#xA;You may also have to work with different accounts, and soon become aware of how cumbersome this can become, specially if you normally use https for your repos.&lt;/p&gt;&#xA;&lt;p&gt;This article will show how to setup and use ssh to host private repositories on serveral accounts in a simple and practical way.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Git Simplified</title>
-      <link>http://moisoto.dev/post/git-simplified/</link>
-      <pubDate>Tue, 06 Jul 2021 17:21:04 -0400</pubDate>
-      <guid>http://moisoto.dev/post/git-simplified/</guid>
-      <description>&lt;p&gt;We are back after a quite long hiatus, and this time will be posting about Git. After all this is a github web page, so what better topic to resume (and hopefully continue) regular posts proadcast.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Unleashing ZSH - Tips &amp; Bits</title>
-      <link>http://moisoto.dev/post/unleashing-zsh-tips-and-bits/</link>
-      <pubDate>Wed, 17 Mar 2021 11:01:40 -0400</pubDate>
-      <guid>http://moisoto.dev/post/unleashing-zsh-tips-and-bits/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/ZSH.png#floatleft&#34; alt=&#34;ZSH-Terminal&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The adoption of Z-Shell (ZSH) as the default on macOS Catalina may seem a letdown for most bash supporters. But I digress, ZSH brings with it some nice features, and more importantly you can use Oh-My-Zsh which is a framework with plugins for a lot of languages, programs and platforms.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Keep reading to know more about ZSH and see some usefull links to get you started on this new shell features&amp;hellip;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>This Hugo Website Is Public!</title>
-      <link>http://moisoto.dev/post/this-hugo-website-is-public/</link>
-      <pubDate>Thu, 11 Mar 2021 22:23:18 -0400</pubDate>
-      <guid>http://moisoto.dev/post/this-hugo-website-is-public/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/GitHub-Mark-120px-plus.png#floatleft&#34; alt=&#34;GitHub-Octocat&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The GitHub repository used for to generate this website is public. And the README.md file contains lots of info on how it was created.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;please-check-it-out-at&#34;&gt;Please check it out at:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/moisoto/github-page.dev&#34;&gt;https://github.com/moisoto/github-page.dev&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Swift Programming Notes</title>
-      <link>http://moisoto.dev/post/swift-programming-notes/</link>
-      <pubDate>Thu, 11 Mar 2021 10:52:29 -0400</pubDate>
-      <guid>http://moisoto.dev/post/swift-programming-notes/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/swift_logo_plain.png#floatleft&#34; alt=&#34;Swift-Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I decided to switch from Objective-C to Swift not long ago, and recently updated some notes for Swift 5.4 to include some new language features and share them on a gist on my main GitHub account.&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xA;&lt;p&gt;&#xA;&lt;h3 id=&#34;you-can-check-it-here&#34;&gt;You can check it here:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gist.github.com/moisoto/1d222dda72e8816287d5ac792f5a6248&#34;&gt;Swift Playground Examples for Beginners · GitHub&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>Welcome to My Github Page</title>
-      <link>http://moisoto.dev/post/welcome-to-my-github-page/</link>
-      <pubDate>Wed, 10 Mar 2021 22:18:04 -0400</pubDate>
-      <guid>http://moisoto.dev/post/welcome-to-my-github-page/</guid>
-      <description>&lt;h1 id=&#34;today-i-found-out-about-github-pages-so-why-not-make-one&#34;&gt;Today I found out about GitHub Pages! So, why not make one?&lt;/h1&gt;&#xA;&lt;h4 id=&#34;click-below-and-check-my-welcome-post&#34;&gt;Click below and check my Welcome Post&amp;hellip;&lt;/h4&gt;</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>http://moisoto.dev/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://moisoto.dev/about/</guid>
-      <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;&gt;Apache Licence 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>MoiSoto&#39;s Dev Corner</title>
+		<link>http://moisoto.dev/</link>
+		<description>Recent content on MoiSoto&#39;s Dev Corner</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 18 Jun 2026 15:00:00 -0400</lastBuildDate>
+		
+			<atom:link href="http://moisoto.dev/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>WWDC26 Resources</title>
+				<link>http://moisoto.dev/post/wwdc26/</link>
+				<pubDate>Thu, 18 Jun 2026 15:00:00 -0400</pubDate>
+				<guid>http://moisoto.dev/post/wwdc26/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/wwdc26.webp&#34; alt=&#34;WWDC26-Resources&#34;&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xA;&lt;p&gt;&#xA;&lt;p&gt;WWDC 2026 is over! This year is all about Apple Intelligence.&#xA;&lt;br&gt;&#xA;I created a Gist with my favorite resources from the conference.&lt;/p&gt;&#xA;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xA;&lt;p&gt;&#xA;&lt;h3 id=&#34;click-here-if-you-want-to-star-or-follow-the-gist&#34;&gt;Click here if you want to Star or Follow the Gist:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gist.github.com/moisoto/67c677e84d0d52d1e48bc6cb6bc46c63&#34;&gt;WWDC 2026 Resources · GitHub&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;or check below for the embedded version&amp;hellip;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
+			</item>
+			<item>
+				<title>Generative AI Resources</title>
+				<link>http://moisoto.dev/post/ai-resources/</link>
+				<pubDate>Tue, 21 Jan 2025 10:00:00 -0400</pubDate>
+				<guid>http://moisoto.dev/post/ai-resources/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/genAI.webp&#34; alt=&#34;AI-Resources&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Recently I&amp;rsquo;ve been working on some projects related to Generative AI models. The more I dive into this, the more I realize the vast amount of resources available.&lt;/p&gt;&#xA;&lt;p&gt;This article will host a Gist that will be updated (hopefully frequently) with the most interesting resources I come across.&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xA;&lt;p&gt;&#xA;&lt;h3 id=&#34;click-here-if-you-want-to-star-or-follow-the-gist&#34;&gt;Click here if you want to Star or Follow the Gist:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gist.github.com/moisoto/b37e6bbe565a0a89133a62d5cca296c7&#34;&gt;Generative AI Resources · GitHub&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;or check below for the embedded version&amp;hellip;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
+			</item>
+			<item>
+				<title>Verifying a DNS Record</title>
+				<link>http://moisoto.dev/post/dns-record/</link>
+				<pubDate>Thu, 12 Dec 2024 11:00:00 -0400</pubDate>
+				<guid>http://moisoto.dev/post/dns-record/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/DNS-logo-small.tiff#floatleft&#34; alt=&#34;DNS-Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I was recently asked why sometimes when settings TXT records on your domain DNS configuration it&#xA;took a while for the change for it to be seen by other servers. The reasons are various, mainly&#xA;DNS propagation delays. Here I&amp;rsquo;ll show you how to verify the change has been applied.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Setting up your BlueSky Custom Domain Handle</title>
+				<link>http://moisoto.dev/post/bluesky-custom-domain/</link>
+				<pubDate>Thu, 27 Jun 2024 10:00:00 -0400</pubDate>
+				<guid>http://moisoto.dev/post/bluesky-custom-domain/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/bluesky_logo_small.png#floatleft&#34; alt=&#34;BlueSky-Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you love how Twitter felt at the start and are looking for a nice alternative, you probably already tried &lt;a href=&#34;https://bsky.app&#34;&gt;BlueSky&lt;/a&gt;. If you haven&amp;rsquo;t, this is the best time to do it. You don&amp;rsquo;t need invites anymore and everyone can join.&lt;/p&gt;&#xA;&lt;p&gt;This article will show you how to use one of the cooler features of this new platform: &lt;em&gt;Using your own domain as your user handle&lt;/em&gt;. This is very useful, specially if you have a brand account with a website and you want users to have confidence they are actually interacting with you.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Repository Spotlight: Git-Utils</title>
+				<link>http://moisoto.dev/post/rs-git-utils/</link>
+				<pubDate>Wed, 26 Jun 2024 10:00:00 -0400</pubDate>
+				<guid>http://moisoto.dev/post/rs-git-utils/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/git_logo_small.png#floatleft&#34; alt=&#34;Git-Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Today we introduce a new series for this blog that we are calling &lt;em&gt;Repository Spotlight&lt;/em&gt;.&#xA;Here you&amp;rsquo;ll find some repositories I published and others I find useful and want to share.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/moisoto/git-utils/&#34;&gt;Git-Utils&lt;/a&gt; is a simple repository where I&amp;rsquo;ll be uploading scripts I use to simplify command line tasks on my git repositories.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Fix Stalled iCloud Sync</title>
+				<link>http://moisoto.dev/post/fix-icloud-stall/</link>
+				<pubDate>Tue, 25 Jun 2024 10:00:00 -0400</pubDate>
+				<guid>http://moisoto.dev/post/fix-icloud-stall/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/hero_icloud_logo.png#floatleft&#34; alt=&#34;iCloud-Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Is your iCloud Drive Synchronization stalled and it always shows files pending upload or download? Follow these instructions to get the problem solved.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Working with Private Repositories</title>
+				<link>http://moisoto.dev/post/git-private-repos/</link>
+				<pubDate>Sat, 22 Jun 2024 10:21:04 -0400</pubDate>
+				<guid>http://moisoto.dev/post/git-private-repos/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/GitHub-Mark-120px-plus.png#floatleft&#34; alt=&#34;GitHub-Octocat&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you are a Github user wanting to host privates repositories, you may wonder what&amp;rsquo;s the easier way to get them up and running.&#xA;You may also have to work with different accounts, and soon become aware of how cumbersome this can become, specially if you normally use https for your repos.&lt;/p&gt;&#xA;&lt;p&gt;This article will show how to setup and use ssh to host private repositories on serveral accounts in a simple and practical way.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Git Simplified</title>
+				<link>http://moisoto.dev/post/git-simplified/</link>
+				<pubDate>Tue, 06 Jul 2021 17:21:04 -0400</pubDate>
+				<guid>http://moisoto.dev/post/git-simplified/</guid>
+				<description>&lt;p&gt;We are back after a quite long hiatus, and this time will be posting about Git. After all this is a github web page, so what better topic to resume (and hopefully continue) regular posts proadcast.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Unleashing ZSH - Tips &amp; Bits</title>
+				<link>http://moisoto.dev/post/unleashing-zsh-tips-and-bits/</link>
+				<pubDate>Wed, 17 Mar 2021 11:01:40 -0400</pubDate>
+				<guid>http://moisoto.dev/post/unleashing-zsh-tips-and-bits/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/ZSH.png#floatleft&#34; alt=&#34;ZSH-Terminal&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The adoption of Z-Shell (ZSH) as the default on macOS Catalina may seem a letdown for most bash supporters. But I digress, ZSH brings with it some nice features, and more importantly you can use Oh-My-Zsh which is a framework with plugins for a lot of languages, programs and platforms.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Keep reading to know more about ZSH and see some usefull links to get you started on this new shell features&amp;hellip;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>This Hugo Website Is Public!</title>
+				<link>http://moisoto.dev/post/this-hugo-website-is-public/</link>
+				<pubDate>Thu, 11 Mar 2021 22:23:18 -0400</pubDate>
+				<guid>http://moisoto.dev/post/this-hugo-website-is-public/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/GitHub-Mark-120px-plus.png#floatleft&#34; alt=&#34;GitHub-Octocat&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The GitHub repository used for to generate this website is public. And the README.md file contains lots of info on how it was created.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;please-check-it-out-at&#34;&gt;Please check it out at:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/moisoto/github-page.dev&#34;&gt;https://github.com/moisoto/github-page.dev&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Swift Programming Notes</title>
+				<link>http://moisoto.dev/post/swift-programming-notes/</link>
+				<pubDate>Thu, 11 Mar 2021 10:52:29 -0400</pubDate>
+				<guid>http://moisoto.dev/post/swift-programming-notes/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/swift_logo_plain.png#floatleft&#34; alt=&#34;Swift-Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I decided to switch from Objective-C to Swift not long ago, and recently updated some notes for Swift 5.4 to include some new language features and share them on a gist on my main GitHub account.&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xA;&lt;p&gt;&#xA;&lt;h3 id=&#34;you-can-check-it-here&#34;&gt;You can check it here:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gist.github.com/moisoto/1d222dda72e8816287d5ac792f5a6248&#34;&gt;Swift Playground Examples for Beginners · GitHub&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
+			</item>
+			<item>
+				<title>Welcome to My Github Page</title>
+				<link>http://moisoto.dev/post/welcome-to-my-github-page/</link>
+				<pubDate>Wed, 10 Mar 2021 22:18:04 -0400</pubDate>
+				<guid>http://moisoto.dev/post/welcome-to-my-github-page/</guid>
+				<description>&lt;h1 id=&#34;today-i-found-out-about-github-pages-so-why-not-make-one&#34;&gt;Today I found out about GitHub Pages! So, why not make one?&lt;/h1&gt;&#xA;&lt;h4 id=&#34;click-below-and-check-my-welcome-post&#34;&gt;Click below and check my Welcome Post&amp;hellip;&lt;/h4&gt;</description>
+			</item>
+			<item>
+				<title>About</title>
+				<link>http://moisoto.dev/about/</link>
+				<pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+				<guid>http://moisoto.dev/about/</guid>
+				<description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;&gt;Apache Licence 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

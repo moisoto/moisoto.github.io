@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Terminal on MoiSoto&#39;s Dev Corner</title>
-    <link>http://moisoto.dev/tags/terminal/</link>
-    <description>Recent content in Terminal on MoiSoto&#39;s Dev Corner</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 12 Dec 2024 11:00:00 -0400</lastBuildDate>
-    <atom:link href="http://moisoto.dev/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Verifying a DNS Record</title>
-      <link>http://moisoto.dev/post/dns-record/</link>
-      <pubDate>Thu, 12 Dec 2024 11:00:00 -0400</pubDate>
-      <guid>http://moisoto.dev/post/dns-record/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/DNS-logo-small.tiff#floatleft&#34; alt=&#34;DNS-Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I was recently asked why sometimes when settings TXT records on your domain DNS configuration it&#xA;took a while for the change for it to be seen by other servers. The reasons are various, mainly&#xA;DNS propagation delays. Here I&amp;rsquo;ll show you how to verify the change has been applied.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Unleashing ZSH - Tips &amp; Bits</title>
-      <link>http://moisoto.dev/post/unleashing-zsh-tips-and-bits/</link>
-      <pubDate>Wed, 17 Mar 2021 11:01:40 -0400</pubDate>
-      <guid>http://moisoto.dev/post/unleashing-zsh-tips-and-bits/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/ZSH.png#floatleft&#34; alt=&#34;ZSH-Terminal&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The adoption of Z-Shell (ZSH) as the default on macOS Catalina may seem a letdown for most bash supporters. But I digress, ZSH brings with it some nice features, and more importantly you can use Oh-My-Zsh which is a framework with plugins for a lot of languages, programs and platforms.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Keep reading to know more about ZSH and see some usefull links to get you started on this new shell features&amp;hellip;&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Terminal on MoiSoto&#39;s Dev Corner</title>
+		<link>http://moisoto.dev/tags/terminal/</link>
+		<description>Recent content in Terminal on MoiSoto&#39;s Dev Corner</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 12 Dec 2024 11:00:00 -0400</lastBuildDate>
+		
+			<atom:link href="http://moisoto.dev/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Verifying a DNS Record</title>
+				<link>http://moisoto.dev/post/dns-record/</link>
+				<pubDate>Thu, 12 Dec 2024 11:00:00 -0400</pubDate>
+				<guid>http://moisoto.dev/post/dns-record/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/DNS-logo-small.tiff#floatleft&#34; alt=&#34;DNS-Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I was recently asked why sometimes when settings TXT records on your domain DNS configuration it&#xA;took a while for the change for it to be seen by other servers. The reasons are various, mainly&#xA;DNS propagation delays. Here I&amp;rsquo;ll show you how to verify the change has been applied.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Unleashing ZSH - Tips &amp; Bits</title>
+				<link>http://moisoto.dev/post/unleashing-zsh-tips-and-bits/</link>
+				<pubDate>Wed, 17 Mar 2021 11:01:40 -0400</pubDate>
+				<guid>http://moisoto.dev/post/unleashing-zsh-tips-and-bits/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/ZSH.png#floatleft&#34; alt=&#34;ZSH-Terminal&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The adoption of Z-Shell (ZSH) as the default on macOS Catalina may seem a letdown for most bash supporters. But I digress, ZSH brings with it some nice features, and more importantly you can use Oh-My-Zsh which is a framework with plugins for a lot of languages, programs and platforms.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Keep reading to know more about ZSH and see some usefull links to get you started on this new shell features&amp;hellip;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
