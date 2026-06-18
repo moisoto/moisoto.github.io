@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Thu, 18 Jun 2026 15:00:00 -0400</lastBuildDate>
+			<lastBuildDate>Thu, 18 Jun 2026 15:30:00 -0400</lastBuildDate>
 		
 			<atom:link href="http://moisoto.dev/tags/gists/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Microsoft Build 2026 Resources</title>
+				<link>http://moisoto.dev/post/ms-build-26/</link>
+				<pubDate>Thu, 18 Jun 2026 15:30:00 -0400</pubDate>
+				<guid>http://moisoto.dev/post/ms-build-26/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;http://moisoto.dev/images/msbuild26.png&#34; alt=&#34;MicrosoftBuild-Resources&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Microsoft Build was very interesting this year, and focused heavily on AI.&#xA;Here are my favorite resources from the conference.&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xA;&lt;p&gt;&#xA;&lt;h3 id=&#34;click-here-if-you-want-to-star-or-follow-the-gist&#34;&gt;Click here if you want to Star or Follow the Gist:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gist.github.com/moisoto/693246a0dbdbbc55db32820e96d22e8a&#34;&gt;Microsoft Build 2026 Resources · GitHub&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;or check below for the embedded version&amp;hellip;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
+			</item>
 			<item>
 				<title>WWDC26 Resources</title>
 				<link>http://moisoto.dev/post/wwdc26/</link>
